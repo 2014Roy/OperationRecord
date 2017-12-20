@@ -73,7 +73,7 @@ mysql服务的开启和关闭
 
 
  注：在bin/mysqld_safe&这个启动脚本里已默认设置--user=mysql；在脚本末尾加&表示设置此进程为后台进程，区别就是在控制台输入bg，即可将当前进  程转入后台，  当前shell  可进行其他操作。
- bin/mysqladmin -uroot -p  (注意此时的root是指mysql的root用户)
+ bin/mysqladmin -u root -p  (注意此时的root是指mysql的root用户)
 
 需要把mysqll加入到环境变量中，或者为mysql建立软链接
 否则运行mysql命令会出现   -bash: mysql:command not found
@@ -95,3 +95,7 @@ ln -s /Ultrapower/test/mysql/bin/mysqld_safe  /usr/local/bin
  连上后，在做任何操作前，mysql要求要改掉root的密码后才能进行操作。
  ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement.
  需要执行：alter user 'root'@'localhost' identified by 'xxxxxxx';
+
+
+****注意如果登陆mysql 失败 请尝试 ./mysql -uroot -h127.0.0.1 -p
+

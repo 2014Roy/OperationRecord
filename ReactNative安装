@@ -1,0 +1,3207 @@
+MrTang:~ zonyet$ npm install -g create-react-native-app
+/usr/local/bin/create-react-native-app -> /usr/local/lib/node_modules/create-react-native-app/build/index.js
+/usr/local/lib
+└─┬ create-react-native-app@1.0.0 
+  ├─┬ babel-runtime@6.26.0 
+  │ ├── core-js@2.5.3 
+  │ └── regenerator-runtime@0.11.1 
+  ├─┬ chalk@2.3.0 
+  │ ├─┬ ansi-styles@3.2.0 
+  │ │ └─┬ color-convert@1.9.1 
+  │ │   └── color-name@1.1.3 
+  │ ├── escape-string-regexp@1.0.5 
+  │ └─┬ supports-color@4.5.0 
+  │   └── has-flag@2.0.0 
+  ├─┬ cross-spawn@5.1.0 
+  │ ├─┬ lru-cache@4.1.1 
+  │ │ ├── pseudomap@1.0.2 
+  │ │ └── yallist@2.1.2 
+  │ ├─┬ shebang-command@1.2.0 
+  │ │ └── shebang-regex@1.0.0 
+  │ └─┬ which@1.3.0 
+  │   └── isexe@2.0.0 
+  ├─┬ fs-extra@4.0.3 
+  │ ├── graceful-fs@4.1.11 
+  │ ├── jsonfile@4.0.0 
+  │ └── universalify@0.1.1 
+  ├── minimist@1.2.0 
+  ├── path-exists@3.0.0 
+  ├── semver@5.4.1 
+  └─┬ source-map-support@0.4.18 
+    └── source-map@0.5.7 
+
+MrTang:~ zonyet$ create-react-native-app AwesomeProject
+Creating a new React Native app in /Users/zonyet/AwesomeProject.
+
+Using package manager as npm with npm interface.
+Installing packages. This might take a couple minutes.
+Installing react-native-scripts...
+
+AwesomeProject@0.1.0 /Users/zonyet/AwesomeProject
+└─┬ react-native-scripts@1.8.1 
+  ├─┬ @expo/bunyan@1.8.10 
+  │ ├── moment@2.20.1 
+  │ ├─┬ mv@2.1.1 
+  │ │ └─┬ rimraf@2.4.5 
+  │ │   └── glob@6.0.4 
+  │ └── safe-json-stringify@1.0.4 
+  ├─┬ babel-runtime@6.26.0 
+  │ ├── core-js@2.5.3 
+  │ └── regenerator-runtime@0.11.1 
+  ├─┬ chalk@2.3.0 
+  │ ├─┬ ansi-styles@3.2.0 
+  │ │ └─┬ color-convert@1.9.1 
+  │ │   └── color-name@1.1.3 
+  │ ├── escape-string-regexp@1.0.5 
+  │ └─┬ supports-color@4.5.0 
+  │   └── has-flag@2.0.0 
+  ├─┬ cross-spawn@5.1.0 
+  │ ├─┬ lru-cache@4.1.1 
+  │ │ ├── pseudomap@1.0.2 
+  │ │ └── yallist@2.1.2 
+  │ ├─┬ shebang-command@1.2.0 
+  │ │ └── shebang-regex@1.0.0 
+  │ └─┬ which@1.3.0 
+  │   └── isexe@2.0.0 
+  ├─┬ fs-extra@3.0.1 
+  │ ├── graceful-fs@4.1.11 
+  │ ├── jsonfile@3.0.1 
+  │ └── universalify@0.1.1 
+  ├── indent-string@3.2.0 
+  ├─┬ inquirer@3.3.0 
+  │ ├── ansi-escapes@3.0.0 
+  │ ├─┬ cli-cursor@2.1.0 
+  │ │ └─┬ restore-cursor@2.0.0 
+  │ │   ├─┬ onetime@2.0.1 
+  │ │   │ └── mimic-fn@1.1.0 
+  │ │   └── signal-exit@3.0.2 
+  │ ├── cli-width@2.2.0 
+  │ ├─┬ external-editor@2.1.0 
+  │ │ ├── chardet@0.4.2 
+  │ │ ├── iconv-lite@0.4.19 
+  │ │ └─┬ tmp@0.0.33 
+  │ │   └── os-tmpdir@1.0.2 
+  │ ├── figures@2.0.0 
+  │ ├── mute-stream@0.0.7 
+  │ ├─┬ run-async@2.3.0 
+  │ │ └── is-promise@2.1.0 
+  │ ├── rx-lite@4.0.8 
+  │ ├── rx-lite-aggregates@4.0.8 
+  │ ├─┬ string-width@2.1.1 
+  │ │ └── is-fullwidth-code-point@2.0.0 
+  │ ├─┬ strip-ansi@4.0.0 
+  │ │ └── ansi-regex@3.0.0 
+  │ └── through@2.3.8 
+  ├── lodash@4.17.4 
+  ├─┬ match-require@2.1.0 
+  │ └── uuid@3.1.0 
+  ├── minimist@1.2.0 
+  ├── path-exists@3.0.0 
+  ├── progress@2.0.0 
+  ├── qrcode-terminal@0.11.0 
+  ├─┬ rimraf@2.6.2 
+  │ └─┬ glob@7.1.2 
+  │   ├── fs.realpath@1.0.0 
+  │   ├─┬ inflight@1.0.6 
+  │   │ └── wrappy@1.0.2 
+  │   ├── inherits@2.0.3 
+  │   ├─┬ minimatch@3.0.4 
+  │   │ └─┬ brace-expansion@1.1.8 
+  │   │   ├── balanced-match@1.0.0 
+  │   │   └── concat-map@0.0.1 
+  │   ├── once@1.4.0 
+  │   └── path-is-absolute@1.0.1 
+  └─┬ xdl@47.0.4 
+    ├─┬ @expo/json-file@5.3.0 
+    │ └── json5@0.5.1 
+    ├─┬ @expo/osascript@1.8.1 
+    │ └── exec-async@2.2.0 
+    ├─┬ @expo/schemer@1.1.0 
+    │ ├─┬ ajv@5.5.2 
+    │ │ ├── co@4.6.0 
+    │ │ ├── fast-deep-equal@1.0.0 
+    │ │ ├── fast-json-stable-stringify@2.0.0 
+    │ │ └── json-schema-traverse@0.3.1 
+    │ ├─┬ babel-polyfill@6.26.0 
+    │ │ └── regenerator-runtime@0.10.5 
+    │ ├─┬ babel-preset-flow@6.23.0 
+    │ │ └─┬ babel-plugin-transform-flow-strip-types@6.22.0 
+    │ │   └── babel-plugin-syntax-flow@6.18.0 
+    │ ├── file-type@5.2.0 
+    │ ├── instapromise@2.0.7 
+    │ └─┬ probe-image-size@3.2.0 
+    │   ├── deepmerge@1.5.2 
+    │   ├─┬ got@6.7.1 
+    │   │ ├─┬ create-error-class@3.0.2 
+    │   │ │ └── capture-stack-trace@1.0.0 
+    │   │ ├── duplexer3@0.1.4 
+    │   │ ├── get-stream@3.0.0 
+    │   │ ├── is-redirect@1.0.0 
+    │   │ ├── is-retry-allowed@1.1.0 
+    │   │ ├── is-stream@1.1.0 
+    │   │ ├── lowercase-keys@1.0.0 
+    │   │ ├── unzip-response@2.0.1 
+    │   │ └─┬ url-parse-lax@1.0.0 
+    │   │   └── prepend-http@1.0.4 
+    │   ├── next-tick@1.0.0 
+    │   └── stream-parser@0.3.1 
+    ├── @expo/spawn-async@1.3.0 
+    ├─┬ analytics-node@2.4.1 
+    │ ├─┬ @segment/loosely-validate-event@1.1.2 
+    │ │ ├── component-type@1.2.1 
+    │ │ └── join-component@1.1.0 
+    │ ├── clone@2.1.1 
+    │ ├── commander@2.12.2 
+    │ ├── crypto-token@1.0.1 
+    │ ├── debug@2.6.9 
+    │ ├── remove-trailing-slash@0.1.0 
+    │ ├─┬ superagent@3.8.2 
+    │ │ ├── component-emitter@1.2.1 
+    │ │ ├── cookiejar@2.1.1 
+    │ │ ├── debug@3.1.0 
+    │ │ ├── formidable@1.1.1 
+    │ │ └── mime@1.6.0 
+    │ └── superagent-retry@0.6.0 
+    ├─┬ auth0@2.9.1 
+    │ ├── bluebird@2.11.0 
+    │ ├─┬ lru-memoizer@1.11.1 
+    │ │ ├── lock@0.1.4 
+    │ │ ├── lodash@4.5.1 
+    │ │ ├── lru-cache@4.0.2 
+    │ │ └── very-fast-args@1.1.0 
+    │ ├─┬ object.assign@4.0.4 
+    │ │ ├── function-bind@1.1.1 
+    │ │ └── object-keys@1.0.11 
+    │ ├─┬ rest-facade@1.10.1 
+    │ │ ├── bluebird@2.11.0 
+    │ │ ├─┬ change-case@2.3.1 
+    │ │ │ ├── camel-case@1.2.2 
+    │ │ │ ├── constant-case@1.1.2 
+    │ │ │ ├── dot-case@1.1.2 
+    │ │ │ ├── is-lower-case@1.1.3 
+    │ │ │ ├── is-upper-case@1.1.2 
+    │ │ │ ├── lower-case@1.1.4 
+    │ │ │ ├── lower-case-first@1.0.2 
+    │ │ │ ├── param-case@1.1.2 
+    │ │ │ ├── pascal-case@1.1.2 
+    │ │ │ ├── path-case@1.1.2 
+    │ │ │ ├── sentence-case@1.1.3 
+    │ │ │ ├── snake-case@1.1.2 
+    │ │ │ ├── swap-case@1.1.2 
+    │ │ │ ├── title-case@1.1.2 
+    │ │ │ ├── upper-case@1.1.3 
+    │ │ │ └── upper-case-first@1.1.2 
+    │ │ └─┬ superagent-proxy@1.0.2 
+    │ │   └─┬ proxy-agent@2.1.0 
+    │ │     ├─┬ agent-base@2.1.1 
+    │ │     │ └── semver@5.0.3 
+    │ │     ├── http-proxy-agent@1.0.0 
+    │ │     ├── https-proxy-agent@1.0.0 
+    │ │     ├── lru-cache@2.6.5 
+    │ │     ├─┬ pac-proxy-agent@2.0.0 
+    │ │     │ ├─┬ get-uri@2.0.1 
+    │ │     │ │ ├── data-uri-to-buffer@1.2.0 
+    │ │     │ │ ├── file-uri-to-path@1.0.0 
+    │ │     │ │ └─┬ ftp@0.3.10 
+    │ │     │ │   ├─┬ readable-stream@1.1.14 
+    │ │     │ │   │ ├── isarray@0.0.1 
+    │ │     │ │   │ └── string_decoder@0.10.31 
+    │ │     │ │   └── xregexp@2.0.0 
+    │ │     │ ├─┬ pac-resolver@3.0.0 
+    │ │     │ │ ├─┬ degenerator@1.0.4 
+    │ │     │ │ │ ├── ast-types@0.10.1 
+    │ │     │ │ │ ├─┬ escodegen@1.9.0 
+    │ │     │ │ │ │ ├── estraverse@4.2.0 
+    │ │     │ │ │ │ ├── esutils@2.0.2 
+    │ │     │ │ │ │ └─┬ optionator@0.8.2 
+    │ │     │ │ │ │   ├── deep-is@0.1.3 
+    │ │     │ │ │ │   ├── fast-levenshtein@2.0.6 
+    │ │     │ │ │ │   ├── levn@0.3.0 
+    │ │     │ │ │ │   ├── prelude-ls@1.1.2 
+    │ │     │ │ │ │   ├── type-check@0.3.2 
+    │ │     │ │ │ │   └── wordwrap@1.0.0 
+    │ │     │ │ │ └── esprima@3.1.3 
+    │ │     │ │ ├── ip@1.1.5 
+    │ │     │ │ ├── netmask@1.0.6 
+    │ │     │ │ └── thunkify@2.1.2 
+    │ │     │ └─┬ socks-proxy-agent@3.0.1 
+    │ │     │   └─┬ agent-base@4.1.2 
+    │ │     │     └─┬ es6-promisify@5.0.0 
+    │ │     │       └── es6-promise@4.1.1 
+    │ │     └─┬ socks-proxy-agent@2.1.1 
+    │ │       └─┬ socks@1.1.10 
+    │ │         └── smart-buffer@1.1.15 
+    │ └── retry@0.10.1 
+    ├─┬ auth0-js@7.6.1 
+    │ ├── Base64@0.1.4 
+    │ ├── json-fallback@0.0.1 
+    │ ├── jsonp@0.0.4 
+    │ ├── qs@6.5.1 
+    │ ├── reqwest@2.0.5 
+    │ ├── trim@0.0.1 
+    │ ├── winchan@0.1.4 
+    │ └─┬ xtend@2.1.2 
+    │   └── object-keys@0.4.0 
+    ├─┬ axios@0.16.2 
+    │ ├─┬ follow-redirects@1.2.6 
+    │ │ └── debug@3.1.0 
+    │ └── is-buffer@1.1.6 
+    ├── bluebird@3.5.1 
+    ├─┬ body-parser@1.18.2 
+    │ ├── bytes@3.0.0 
+    │ ├── content-type@1.0.4 
+    │ ├── depd@1.1.1 
+    │ ├─┬ http-errors@1.6.2 
+    │ │ ├── setprototypeof@1.0.3 
+    │ │ └── statuses@1.4.0 
+    │ ├─┬ on-finished@2.3.0 
+    │ │ └── ee-first@1.1.1 
+    │ ├─┬ raw-body@2.3.2 
+    │ │ └── unpipe@1.0.0 
+    │ └─┬ type-is@1.6.15 
+    │   └── media-typer@0.3.0 
+    ├─┬ concat-stream@1.6.0 
+    │ ├─┬ readable-stream@2.3.3 
+    │ │ ├── core-util-is@1.0.2 
+    │ │ ├── isarray@1.0.0 
+    │ │ ├── process-nextick-args@1.0.7 
+    │ │ ├── string_decoder@1.0.3 
+    │ │ └── util-deprecate@1.0.2 
+    │ └── typedarray@0.0.6 
+    ├─┬ decache@4.3.0 
+    │ └── callsite@1.0.0 
+    ├── delay-async@1.1.0 
+    ├── es6-error@4.0.2 
+    ├── exists-async@2.0.0 
+    ├─┬ express@4.16.2 
+    │ ├─┬ accepts@1.3.4 
+    │ │ └── negotiator@0.6.1 
+    │ ├── array-flatten@1.1.1 
+    │ ├── content-disposition@0.5.2 
+    │ ├── cookie@0.3.1 
+    │ ├── cookie-signature@1.0.6 
+    │ ├── encodeurl@1.0.1 
+    │ ├── escape-html@1.0.3 
+    │ ├── etag@1.8.1 
+    │ ├─┬ finalhandler@1.1.0 
+    │ │ └── statuses@1.3.1 
+    │ ├── fresh@0.5.2 
+    │ ├── merge-descriptors@1.0.1 
+    │ ├── methods@1.1.2 
+    │ ├── parseurl@1.3.2 
+    │ ├── path-to-regexp@0.1.7 
+    │ ├─┬ proxy-addr@2.0.2 
+    │ │ ├── forwarded@0.1.2 
+    │ │ └── ipaddr.js@1.5.2 
+    │ ├── range-parser@1.2.0 
+    │ ├── safe-buffer@5.1.1 
+    │ ├─┬ send@0.16.1 
+    │ │ ├── destroy@1.0.4 
+    │ │ ├── mime@1.4.1 
+    │ │ └── statuses@1.3.1 
+    │ ├── serve-static@1.13.1 
+    │ ├── setprototypeof@1.1.0 
+    │ ├── statuses@1.3.1 
+    │ ├── utils-merge@1.0.1 
+    │ └── vary@1.1.2 
+    ├── file-type@4.4.0 
+    ├─┬ form-data@2.3.1 
+    │ ├── asynckit@0.4.0 
+    │ ├─┬ combined-stream@1.0.5 
+    │ │ └── delayed-stream@1.0.0 
+    │ └─┬ mime-types@2.1.17 
+    │   └── mime-db@1.30.0 
+    ├── freeport-async@1.1.1 
+    ├─┬ fs-extra@4.0.3 
+    │ └── jsonfile@4.0.0 
+    ├── getenv@0.7.0 
+    ├── glob@7.1.2 
+    ├─┬ globby@6.1.0 
+    │ ├─┬ array-union@1.0.2 
+    │ │ └── array-uniq@1.0.3 
+    │ ├── glob@7.1.2 
+    │ ├── object-assign@4.1.1 
+    │ ├── pify@2.3.0 
+    │ └─┬ pinkie-promise@2.0.1 
+    │   └── pinkie@2.0.4 
+    ├─┬ hasbin@1.2.3 
+    │ └── async@1.5.2 
+    ├── home-dir@1.0.0 
+    ├── idx@2.2.0 
+    ├── instapromise@2.0.7-rc.1 
+    ├─┬ joi@10.6.0 
+    │ ├── hoek@4.2.0 
+    │ ├── isemail@2.2.1 
+    │ ├── items@2.1.1 
+    │ └── topo@2.0.2 
+    ├── jsonfile@2.4.0 
+    ├── jsonschema@1.2.2 
+    ├─┬ jsonwebtoken@7.4.3 
+    │ ├─┬ joi@6.10.1 
+    │ │ ├── hoek@2.16.3 
+    │ │ ├── isemail@1.2.0 
+    │ │ └── topo@1.1.0 
+    │ ├─┬ jws@3.1.4 
+    │ │ ├── base64url@2.0.0 
+    │ │ └─┬ jwa@1.1.5 
+    │ │   ├── buffer-equal-constant-time@1.0.1 
+    │ │   └── ecdsa-sig-formatter@1.0.9 
+    │ ├── lodash.once@4.1.1 
+    │ ├── ms@2.0.0 
+    │ └── xtend@4.0.1 
+    ├── md5hex@1.0.0 
+    ├─┬ mkdirp@0.5.1 
+    │ └── minimist@0.0.8 
+    ├── mkdirp-promise@5.0.1 
+    ├─┬ mz@2.7.0 
+    │ ├── any-promise@1.3.0 
+    │ └─┬ thenify-all@1.6.0 
+    │   └── thenify@3.3.0 
+    ├── ncp@2.0.0 
+    ├── opn@4.0.2 
+    ├─┬ plist@2.1.0 
+    │ ├── base64-js@1.2.0 
+    │ └── xmlbuilder@8.2.2 
+    ├── querystring@0.2.0 
+    ├─┬ raven@2.3.0 
+    │ ├── lsmod@1.0.0 
+    │ ├── stack-trace@0.0.9 
+    │ ├── timed-out@4.0.1 
+    │ └── uuid@3.0.0 
+    ├── raven-js@3.21.0 
+    ├── UNMET PEER DEPENDENCY react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0
+    ├─┬ react-redux@5.0.6 
+    │ ├── hoist-non-react-statics@2.3.1 
+    │ ├── invariant@2.2.2 
+    │ ├── lodash-es@4.17.4 
+    │ ├─┬ loose-envify@1.3.1 
+    │ │ └── js-tokens@3.0.2 
+    │ └─┬ prop-types@15.6.0 
+    │   └─┬ fbjs@0.8.16 
+    │     ├── core-js@1.2.7 
+    │     ├─┬ isomorphic-fetch@2.2.1 
+    │     │ ├─┬ node-fetch@1.7.3 
+    │     │ │ └── encoding@0.1.12 
+    │     │ └── whatwg-fetch@2.0.3 
+    │     ├─┬ promise@7.3.1 
+    │     │ └── asap@2.0.6 
+    │     ├── setimmediate@1.0.5 
+    │     └── ua-parser-js@0.7.17 
+    ├─┬ read-chunk@2.1.0 
+    │ └── pify@3.0.0 
+    ├─┬ redux@3.7.2 
+    │ └── symbol-observable@1.1.0 
+    ├─┬ redux-logger@2.10.2 
+    │ └── deep-diff@0.3.4 
+    ├── replace-string@1.1.0 
+    ├─┬ request@2.83.0 
+    │ ├── aws-sign2@0.7.0 
+    │ ├── aws4@1.6.0 
+    │ ├── caseless@0.12.0 
+    │ ├── extend@3.0.1 
+    │ ├── forever-agent@0.6.1 
+    │ ├─┬ har-validator@5.0.3 
+    │ │ └── har-schema@2.0.0 
+    │ ├─┬ hawk@6.0.2 
+    │ │ ├── boom@4.3.1 
+    │ │ ├─┬ cryptiles@3.1.2 
+    │ │ │ └── boom@5.2.0 
+    │ │ └── sntp@2.1.0 
+    │ ├─┬ http-signature@1.2.0 
+    │ │ ├── assert-plus@1.0.0 
+    │ │ ├─┬ jsprim@1.4.1 
+    │ │ │ ├── extsprintf@1.3.0 
+    │ │ │ ├── json-schema@0.2.3 
+    │ │ │ └── verror@1.10.0 
+    │ │ └─┬ sshpk@1.13.1 
+    │ │   ├── asn1@0.2.3 
+    │ │   ├── bcrypt-pbkdf@1.0.1 
+    │ │   ├── dashdash@1.14.1 
+    │ │   ├── ecc-jsbn@0.1.1 
+    │ │   ├── getpass@0.1.7 
+    │ │   ├── jsbn@0.1.1 
+    │ │   └── tweetnacl@0.14.5 
+    │ ├── is-typedarray@1.0.0 
+    │ ├── isstream@0.1.2 
+    │ ├── json-stringify-safe@5.0.1 
+    │ ├── oauth-sign@0.8.2 
+    │ ├── performance-now@2.1.0 
+    │ ├── stringstream@0.0.5 
+    │ ├─┬ tough-cookie@2.3.3 
+    │ │ └── punycode@1.4.1 
+    │ └── tunnel-agent@0.6.0 
+    ├─┬ request-progress@3.0.0 
+    │ └── throttleit@1.0.0 
+    ├── semver@5.4.1 
+    ├─┬ slugid@1.1.0 
+    │ └── uuid@2.0.3 
+    ├── slugify@1.2.7 
+    ├─┬ source-map-support@0.4.18 
+    │ └── source-map@0.5.7 
+    ├─┬ tar@4.1.1 
+    │ ├── chownr@1.0.1 
+    │ ├── fs-minipass@1.2.3 
+    │ ├─┬ minipass@2.2.1 
+    │ │ └── yallist@3.0.2 
+    │ ├── minizlib@1.0.4 
+    │ └── yallist@3.0.2 
+    ├── tree-kill@1.2.0 
+    ├─┬ url@0.11.0 
+    │ └── punycode@1.3.2 
+    ├─┬ util.promisify@1.0.0 
+    │ ├─┬ define-properties@1.1.2 
+    │ │ └── foreach@2.0.5 
+    │ └─┬ object.getownpropertydescriptors@2.0.3 
+    │   └─┬ es-abstract@1.10.0 
+    │     ├─┬ es-to-primitive@1.1.1 
+    │     │ ├── is-date-object@1.0.1 
+    │     │ └── is-symbol@1.0.1 
+    │     ├── has@1.0.1 
+    │     ├── is-callable@1.1.3 
+    │     └── is-regex@1.0.4 
+    ├── xmldom@0.1.27 
+    └── yesno@0.0.1 
+
+npm WARN react-redux@5.0.6 requires a peer of react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0 but none was installed.
+You are currently running Node v5.7.0 but create-react-native-app requires >=6. Please use a supported version of Node.
+
+MrTang:~ zonyet$ cd AwesomeProject/
+MrTang:AwesomeProject zonyet$ npm start
+npm ERR! Darwin 16.7.0
+npm ERR! argv "/usr/local/Cellar/node/5.7.0/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v5.7.0
+npm ERR! npm  v3.6.0
+
+npm ERR! missing script: start
+npm ERR! 
+npm ERR! If you need help, you may report this error at:
+npm ERR!     <https://github.com/npm/npm/issues>
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/zonyet/AwesomeProject/npm-debug.log
+MrTang:AwesomeProject zonyet$ npm -g install npm@next
+/usr/local/bin/npm -> /usr/local/lib/node_modules/npm/bin/npm-cli.js
+/usr/local/bin/npx -> /usr/local/lib/node_modules/npm/bin/npx-cli.js
+- async-some@1.0.2 node_modules/npm/node_modules/async-some
+- graceful-fs@3.0.8 node_modules/npm/node_modules/cmd-shim/node_modules/graceful-fs
+- fstream@1.0.8 node_modules/npm/node_modules/fstream
+- balanced-match@0.3.0 node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+- concat-map@0.0.1 node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+- brace-expansion@1.1.2 node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion
+- minimatch@3.0.0 node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch
+- fstream-ignore@1.0.3 node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore
+- fstream-npm@1.0.7 node_modules/npm/node_modules/fstream-npm
+- lodash._arrayeach@3.0.0 node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._arrayeach
+- lodash._basefor@3.0.3 node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._basefor
+- lodash._mapcache@4.0.0 node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._stack/node_modules/lodash._mapcache
+- lodash._stack@4.0.1 node_modules/npm/node_modules/lodash.clonedeep/node_modules/lodash._stack
+- lodash.isarguments@3.0.5 node_modules/npm/node_modules/lodash.isarguments
+- lodash.isarray@4.0.0 node_modules/npm/node_modules/lodash.isarray
+- lodash.keys@4.0.0 node_modules/npm/node_modules/lodash.keys
+- lodash._arrayincludes@4.0.0 node_modules/npm/node_modules/lodash.union/node_modules/lodash._arrayincludes
+- lodash._arrayincludeswith@4.0.0 node_modules/npm/node_modules/lodash.union/node_modules/lodash._arrayincludeswith
+- lodash._baseflatten@4.0.0 node_modules/npm/node_modules/lodash.union/node_modules/lodash._baseflatten
+- lodash._cachehas@4.0.0 node_modules/npm/node_modules/lodash.union/node_modules/lodash._cachehas
+- lodash._mapcache@4.0.0 node_modules/npm/node_modules/lodash.union/node_modules/lodash._setcache/node_modules/lodash._mapcache
+- lodash._setcache@4.0.1 node_modules/npm/node_modules/lodash.union/node_modules/lodash._setcache
+- lodash.rest@4.0.0 node_modules/npm/node_modules/lodash.union/node_modules/lodash.rest
+- lodash._arrayincludes@4.0.0 node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._arrayincludes
+- lodash._arrayincludeswith@4.0.0 node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._arrayincludeswith
+- lodash._cachehas@4.0.0 node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._cachehas
+- lodash._mapcache@4.0.0 node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._setcache/node_modules/lodash._mapcache
+- lodash._setcache@4.0.1 node_modules/npm/node_modules/lodash.uniq/node_modules/lodash._setcache
+- lodash._arrayincludes@4.0.0 node_modules/npm/node_modules/lodash.without/node_modules/lodash._arrayincludes
+- lodash._arrayincludeswith@4.0.0 node_modules/npm/node_modules/lodash.without/node_modules/lodash._arrayincludeswith
+- lodash._arraymap@3.0.0 node_modules/npm/node_modules/lodash.without/node_modules/lodash._arraymap
+- lodash._cachehas@4.0.0 node_modules/npm/node_modules/lodash.without/node_modules/lodash._cachehas
+- lodash._mapcache@4.0.0 node_modules/npm/node_modules/lodash.without/node_modules/lodash._setcache/node_modules/lodash._mapcache
+- lodash._setcache@4.0.1 node_modules/npm/node_modules/lodash.without/node_modules/lodash._setcache
+- lodash.rest@4.0.0 node_modules/npm/node_modules/lodash.without/node_modules/lodash.rest
+- balanced-match@0.3.0 node_modules/npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+- concat-map@0.0.1 node_modules/npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+- brace-expansion@1.1.2 node_modules/npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+- minimatch@2.0.10 node_modules/npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch
+- glob@4.5.3 node_modules/npm/node_modules/node-gyp/node_modules/glob
+- lru-cache@2.7.3 node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/lru-cache
+- sigmund@1.0.1 node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/sigmund
+- ansi@0.3.1 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/ansi
+- delegates@0.1.0 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates
+- are-we-there-yet@1.0.5 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/are-we-there-yet
+- lodash.repeat@3.1.0 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash.repeat
+- lodash.pad@3.2.0 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad
+- lodash._basetostring@3.0.1 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._basetostring
+- lodash.repeat@3.1.0 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/node_modules/lodash.repeat
+- lodash._createpadding@3.6.1 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding
+- lodash.padleft@3.1.1 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft
+- lodash._basetostring@3.0.1 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._basetostring
+- lodash.repeat@3.1.0 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/node_modules/lodash.repeat
+- lodash._createpadding@3.6.1 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding
+- lodash.padright@3.1.1 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright
+- gauge@1.2.4 node_modules/npm/node_modules/node-gyp/node_modules/npmlog/node_modules/gauge
+- npmlog@1.2.1 node_modules/npm/node_modules/node-gyp/node_modules/npmlog
+- ms@0.7.1 node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/debug/node_modules/ms
+- debug@2.2.0 node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/debug
+- es6-iterator@2.0.0 node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules/es5-ext/node_modules/es6-iterator
+- es5-ext@0.10.11 node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules/es5-ext
+- d@0.1.1 node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules/d
+- es6-symbol@3.0.2 node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol
+- array-index@1.0.0 node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index
+- path-array@1.0.1 node_modules/npm/node_modules/node-gyp/node_modules/path-array
+- normalize-git-url@3.0.1 node_modules/npm/node_modules/normalize-git-url
+- ansi@0.3.1 node_modules/npm/node_modules/npmlog/node_modules/ansi
+- lodash.repeat@3.1.0 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad/node_modules/lodash.repeat
+- lodash.pad@3.2.0 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.pad
+- lodash._basetostring@3.0.1 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._basetostring
+- lodash.repeat@3.1.0 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding/node_modules/lodash.repeat
+- lodash._createpadding@3.6.1 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft/node_modules/lodash._createpadding
+- lodash.padleft@3.1.1 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padleft
+- lodash._basetostring@3.0.1 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._basetostring
+- lodash.repeat@3.1.0 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding/node_modules/lodash.repeat
+- lodash._createpadding@3.6.1 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright/node_modules/lodash._createpadding
+- lodash.padright@3.1.1 node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash.padright
+- jju@1.2.1 node_modules/npm/node_modules/read-package-json/node_modules/json-parse-helpfulerror/node_modules/jju
+- json-parse-helpfulerror@1.0.3 node_modules/npm/node_modules/read-package-json/node_modules/json-parse-helpfulerror
+- realize-package-specifier@3.0.1 node_modules/npm/node_modules/realize-package-specifier
+- bl@1.0.1 node_modules/npm/node_modules/request/node_modules/bl
+- async@1.5.2 node_modules/npm/node_modules/request/node_modules/form-data/node_modules/async
+- ansi-styles@2.1.0 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/ansi-styles
+- escape-string-regexp@1.0.4 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/escape-string-regexp
+- has-ansi@2.0.0 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi
+- supports-color@2.0.0 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color
+- chalk@1.1.1 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk
+- graceful-readlink@1.0.1 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/commander/node_modules/graceful-readlink
+- commander@2.9.0 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/commander
+- generate-function@2.0.0 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-function
+- is-property@1.0.2 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property/node_modules/is-property
+- generate-object-property@1.2.0 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/generate-object-property
+- jsonpointer@2.0.0 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/jsonpointer
+- xtend@4.0.1 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend
+- is-my-json-valid@2.12.4 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid
+- pinkie@2.0.1 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise/node_modules/pinkie
+- pinkie-promise@2.0.0 node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/pinkie-promise
+- assert-plus@0.2.0 node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/assert-plus
+- jodid25519@1.0.2 node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jodid25519
+- node-uuid@1.4.7 node_modules/npm/node_modules/request/node_modules/node-uuid
+- block-stream@0.0.8 node_modules/npm/node_modules/tar/node_modules/block-stream
+- spdx-exceptions@1.0.4 node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-exceptions
+- spdx-license-ids@1.2.0 node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-license-ids
+- is-relative@0.1.3 node_modules/npm/node_modules/which/node_modules/is-absolute/node_modules/is-relative
+- is-absolute@0.1.7 node_modules/npm/node_modules/which/node_modules/is-absolute
+/usr/local/lib
+├── abbrev@1.1.1 
+├── ansi-regex@3.0.0 
+├── aproba@1.2.0 
+├── bin-links@1.1.0 
+├── bluebird@3.5.1 
+├─┬ cacache@10.0.1 
+│ ├── ssri@5.0.0 
+│ └── y18n@3.2.1 
+├─┬ cli-table2@0.2.0 
+│ ├── colors@1.1.2 
+│ ├── lodash@3.10.1 
+│ └─┬ string-width@1.0.2 
+│   ├── code-point-at@1.1.0 
+│   ├─┬ is-fullwidth-code-point@1.0.0 
+│   │ └── number-is-nan@1.0.1 
+│   └─┬ strip-ansi@3.0.1 
+│     └── ansi-regex@2.1.1 
+├── detect-indent@5.0.0 
+├── find-npm-prefix@1.0.1 
+├── gentle-fs@2.0.1 
+├─┬ glob@7.1.2 
+│ ├── fs.realpath@1.0.0 
+│ ├─┬ minimatch@3.0.4 
+│ │ └─┬ brace-expansion@1.1.8 
+│ │   ├── balanced-match@1.0.0 
+│ │   └── concat-map@0.0.1 
+│ └── path-is-absolute@1.0.1 
+├── hosted-git-info@2.5.0 
+├─┬ is-cidr@1.0.0 
+│ └── cidr-regex@1.0.6 
+├─┬ JSONStream@1.3.1 
+│ ├── jsonparse@1.3.1 
+│ └── through@2.3.8 
+├─┬ libnpx@9.7.1 
+│ ├── dotenv@4.0.0 
+│ ├── npm-package-arg@5.1.2 
+│ ├── y18n@3.2.1 
+│ └─┬ yargs@8.0.2 
+│   ├── camelcase@4.1.0 
+│   ├─┬ cliui@3.2.0 
+│   │ ├─┬ string-width@1.0.2 
+│   │ │ ├── code-point-at@1.1.0 
+│   │ │ └─┬ is-fullwidth-code-point@1.0.0 
+│   │ │   └── number-is-nan@1.0.1 
+│   │ ├─┬ strip-ansi@3.0.1 
+│   │ │ └── ansi-regex@2.1.1 
+│   │ └── wrap-ansi@2.1.0 
+│   ├── decamelize@1.2.0 
+│   ├── get-caller-file@1.0.2 
+│   ├─┬ os-locale@2.1.0 
+│   │ ├─┬ execa@0.7.0 
+│   │ │ ├─┬ cross-spawn@5.1.0 
+│   │ │ │ └─┬ shebang-command@1.2.0 
+│   │ │ │   └── shebang-regex@1.0.0 
+│   │ │ ├── get-stream@3.0.0 
+│   │ │ ├── is-stream@1.1.0 
+│   │ │ ├─┬ npm-run-path@2.0.2 
+│   │ │ │ └── path-key@2.0.1 
+│   │ │ ├── p-finally@1.0.0 
+│   │ │ ├── signal-exit@3.0.2 
+│   │ │ └── strip-eof@1.0.0 
+│   │ ├─┬ lcid@1.0.0 
+│   │ │ └── invert-kv@1.0.0 
+│   │ └─┬ mem@1.1.0 
+│   │   └── mimic-fn@1.1.0 
+│   ├─┬ read-pkg-up@2.0.0 
+│   │ ├─┬ find-up@2.1.0 
+│   │ │ └─┬ locate-path@2.0.0 
+│   │ │   ├─┬ p-locate@2.0.0 
+│   │ │   │ └── p-limit@1.1.0 
+│   │ │   └── path-exists@3.0.0 
+│   │ └─┬ read-pkg@2.0.0 
+│   │   ├─┬ load-json-file@2.0.0 
+│   │   │ ├─┬ parse-json@2.2.0 
+│   │   │ │ └─┬ error-ex@1.3.1 
+│   │   │ │   └── is-arrayish@0.2.1 
+│   │   │ ├── pify@2.3.0 
+│   │   │ └── strip-bom@3.0.0 
+│   │   └─┬ path-type@2.0.0 
+│   │     └── pify@2.3.0 
+│   ├── require-directory@2.1.1 
+│   ├── require-main-filename@1.0.1 
+│   ├── set-blocking@2.0.0 
+│   ├─┬ string-width@2.1.1 
+│   │ └── is-fullwidth-code-point@2.0.0 
+│   ├── which-module@2.0.0 
+│   └── yargs-parser@7.0.0 
+├─┬ lru-cache@4.1.1 
+│ ├── pseudomap@1.0.2 
+│ └── yallist@2.1.2 
+├── meant@1.0.1 
+├─┬ move-concurrently@1.0.1 
+│ ├── copy-concurrently@1.0.5 
+│ └── run-queue@1.0.3 
+├─┬ node-gyp@3.6.2 
+│ ├── fstream@1.0.11 
+│ ├─┬ minimatch@3.0.4 
+│ │ └─┬ brace-expansion@1.1.8 
+│ │   ├── balanced-match@1.0.0 
+│ │   └── concat-map@0.0.1 
+│ ├── nopt@3.0.6 
+│ ├── semver@5.3.0 
+│ └─┬ tar@2.2.1 
+│   └── block-stream@0.0.9 
+├── normalize-package-data@2.4.0 
+├─┬ npm@5.6.0 
+│ ├── call-limit@1.1.0 
+│ ├── cmd-shim@2.0.2 
+│ ├─┬ columnify@1.5.4
+│ │ ├─┬ strip-ansi@3.0.1 
+│ │ │ └── ansi-regex@2.1.1 
+│ │ └── wcwidth@1.0.1 
+│ ├── config-chain@1.1.11 
+│ ├─┬ dezalgo@1.0.3
+│ │ └── asap@2.0.5 
+│ ├── fs-vacuum@1.2.10 
+│ ├── fs-write-stream-atomic@1.0.10 
+│ ├── graceful-fs@4.1.11 
+│ ├── has-unicode@2.0.1 
+│ ├── inflight@1.0.6 
+│ ├── inherits@2.0.3 
+│ ├─┬ init-package-json@1.10.1 
+│ │ └── npm-package-arg@5.1.2 
+│ ├── lazy-property@1.0.0 
+│ ├── lockfile@1.0.3 
+│ ├─┬ lodash._baseuniq@4.6.0 
+│ │ ├── lodash._createset@4.0.3 
+│ │ └── lodash._root@3.0.1 
+│ ├── lodash.clonedeep@4.5.0 
+│ ├── lodash.union@4.6.0 
+│ ├── lodash.uniq@4.5.0 
+│ ├── lodash.without@4.4.0 
+│ ├─┬ mississippi@1.3.0 
+│ │ ├─┬ concat-stream@1.6.0 
+│ │ │ └── typedarray@0.0.6 
+│ │ ├─┬ duplexify@3.5.0 
+│ │ │ ├─┬ end-of-stream@1.0.0 
+│ │ │ │ └── once@1.3.3 
+│ │ │ └── stream-shift@1.0.0 
+│ │ ├── end-of-stream@1.4.0 
+│ │ ├── flush-write-stream@1.0.2 
+│ │ ├── from2@2.3.0 
+│ │ ├─┬ parallel-transform@1.1.0 
+│ │ │ └── cyclist@0.2.2 
+│ │ ├── pump@1.0.2 
+│ │ ├── pumpify@1.3.5 
+│ │ ├─┬ stream-each@1.2.0 
+│ │ │ └── stream-shift@1.0.0 
+│ │ └─┬ through2@2.0.3 
+│ │   └── xtend@4.0.1 
+│ ├── nopt@4.0.1 
+│ ├── once@1.4.0 
+│ ├── opener@1.4.3 
+│ ├─┬ osenv@0.1.4 
+│ │ ├── os-homedir@1.0.2 
+│ │ └── os-tmpdir@1.0.2 
+│ ├── path-is-inside@1.0.2 
+│ ├── promise-inflight@1.0.1 
+│ ├─┬ read@1.0.7
+│ │ └── mute-stream@0.0.7 
+│ ├── retry@0.10.1 
+│ ├── sorted-object@2.0.1 
+│ ├─┬ sorted-union-stream@2.1.3 
+│ │ ├─┬ from2@1.3.0 
+│ │ │ └─┬ readable-stream@1.1.14 
+│ │ │   ├── core-util-is@1.0.2 
+│ │ │   ├── isarray@0.0.1 
+│ │ │   └── string_decoder@0.10.31 
+│ │ └─┬ stream-iterate@1.2.0 
+│ │   └── stream-shift@1.0.0 
+│ ├─┬ validate-npm-package-license@3.0.1
+│ │ ├─┬ spdx-correct@1.0.2
+│ │ │ └── spdx-license-ids@1.2.2 
+│ │ └── spdx-expression-parse@1.0.4 
+│ ├─┬ validate-npm-package-name@3.0.0 
+│ │ └── builtins@1.0.3 
+│ └── wrappy@1.0.2 
+├─┬ npm-lifecycle@2.0.0 
+│ ├── byline@5.0.0 
+│ └── resolve-from@4.0.0 
+├── npm-package-arg@6.0.0 
+├─┬ npm-packlist@1.1.10 
+│ ├─┬ ignore-walk@3.0.1 
+│ │ └─┬ minimatch@3.0.4 
+│ │   └─┬ brace-expansion@1.1.8 
+│ │     ├── balanced-match@1.0.0 
+│ │     └── concat-map@0.0.1 
+│ └── npm-bundled@1.0.3 
+├─┬ npm-profile@2.0.5 
+│ └─┬ make-fetch-happen@2.5.0 
+│   ├─┬ agentkeepalive@3.3.0 
+│   │ └─┬ humanize-ms@1.2.1 
+│   │   └── ms@2.0.0 
+│   ├─┬ cacache@9.3.0 
+│   │ └── y18n@3.2.1 
+│   ├── http-cache-semantics@3.8.0 
+│   ├─┬ http-proxy-agent@2.0.0 
+│   │ ├─┬ agent-base@4.1.1 
+│   │ │ └─┬ es6-promisify@5.0.0 
+│   │ │   └── es6-promise@4.1.1 
+│   │ └─┬ debug@2.6.9 
+│   │   └── ms@2.0.0 
+│   ├─┬ https-proxy-agent@2.1.0 
+│   │ ├─┬ agent-base@4.1.1 
+│   │ │ └─┬ es6-promisify@5.0.0 
+│   │ │   └── es6-promise@4.1.1 
+│   │ └─┬ debug@2.6.9 
+│   │   └── ms@2.0.0 
+│   ├─┬ node-fetch-npm@2.0.2 
+│   │ ├─┬ encoding@0.1.12 
+│   │ │ └── iconv-lite@0.4.19 
+│   │ └── json-parse-better-errors@1.0.1 
+│   ├─┬ promise-retry@1.1.1 
+│   │ └── err-code@1.1.2 
+│   ├─┬ socks-proxy-agent@3.0.1 
+│   │ ├─┬ agent-base@4.1.1 
+│   │ │ └─┬ es6-promisify@5.0.0 
+│   │ │   └── es6-promise@4.1.1 
+│   │ └─┬ socks@1.1.10 
+│   │   ├── ip@1.1.5 
+│   │   └── smart-buffer@1.1.15 
+│   └── ssri@4.1.6 
+├─┬ npm-registry-client@8.5.0 
+│ ├─┬ concat-stream@1.6.0 
+│ │ └── typedarray@0.0.6 
+│ ├── npm-package-arg@5.1.2 
+│ └── ssri@4.1.6 
+├── npm-user-validate@1.0.0 
+├─┬ npmlog@4.1.2 
+│ ├─┬ are-we-there-yet@1.1.4 
+│ │ └── delegates@1.0.0 
+│ ├── console-control-strings@1.1.0 
+│ ├─┬ gauge@2.7.4 
+│ │ ├── object-assign@4.1.1 
+│ │ ├── signal-exit@3.0.2 
+│ │ ├─┬ string-width@1.0.2 
+│ │ │ ├── code-point-at@1.1.0 
+│ │ │ └─┬ is-fullwidth-code-point@1.0.0 
+│ │ │   └── number-is-nan@1.0.1 
+│ │ ├─┬ strip-ansi@3.0.1 
+│ │ │ └── ansi-regex@2.1.1 
+│ │ └── wide-align@1.1.2 
+│ └── set-blocking@2.0.0 
+├─┬ pacote@7.0.2 
+│ ├── get-stream@3.0.0 
+│ ├─┬ make-fetch-happen@2.6.0 
+│ │ ├─┬ agentkeepalive@3.3.0 
+│ │ │ └─┬ humanize-ms@1.2.1 
+│ │ │   └── ms@2.0.0 
+│ │ ├── http-cache-semantics@3.8.0 
+│ │ ├─┬ http-proxy-agent@2.0.0 
+│ │ │ ├─┬ agent-base@4.1.2 
+│ │ │ │ └─┬ es6-promisify@5.0.0 
+│ │ │ │   └── es6-promise@4.1.1 
+│ │ │ └─┬ debug@2.6.9 
+│ │ │   └── ms@2.0.0 
+│ │ ├─┬ https-proxy-agent@2.1.0 
+│ │ │ ├─┬ agent-base@4.1.2 
+│ │ │ │ └─┬ es6-promisify@5.0.0 
+│ │ │ │   └── es6-promise@4.1.1 
+│ │ │ └─┬ debug@2.6.9 
+│ │ │   └── ms@2.0.0 
+│ │ ├─┬ node-fetch-npm@2.0.2 
+│ │ │ ├─┬ encoding@0.1.12 
+│ │ │ │ └── iconv-lite@0.4.19 
+│ │ │ └── json-parse-better-errors@1.0.1 
+│ │ └─┬ socks-proxy-agent@3.0.1 
+│ │   ├─┬ agent-base@4.1.2 
+│ │   │ └─┬ es6-promisify@5.0.0 
+│ │   │   └── es6-promise@4.1.1 
+│ │   └─┬ socks@1.1.10 
+│ │     ├── ip@1.1.5 
+│ │     └── smart-buffer@1.1.15 
+│ ├─┬ minimatch@3.0.4 
+│ │ └─┬ brace-expansion@1.1.8 
+│ │   ├── balanced-match@1.0.0 
+│ │   └── concat-map@0.0.1 
+│ ├── npm-pick-manifest@2.1.0 
+│ ├─┬ promise-retry@1.1.1 
+│ │ └── err-code@1.1.2 
+│ └─┬ protoduck@4.0.0 
+│   └── genfun@4.0.1 
+├── qrcode-terminal@0.11.0 
+├─┬ query-string@5.0.1 
+│ ├── decode-uri-component@0.2.0 
+│ ├── object-assign@4.1.1 
+│ └── strict-uri-encode@1.1.0 
+├── qw@1.0.1 
+├─┬ read-package-json@2.0.12 
+│ ├── json-parse-better-errors@1.0.1 
+│ └── slash@1.0.0 
+├── read-package-tree@5.1.6 
+├─┬ readable-stream@2.3.3 
+│ ├── core-util-is@1.0.2 
+│ ├── isarray@1.0.0 
+│ ├── process-nextick-args@1.0.7 
+│ └── string_decoder@1.0.3 
+├─┬ request@2.83.0 
+│ ├── aws-sign2@0.7.0 
+│ ├── aws4@1.6.0 
+│ ├── caseless@0.12.0 
+│ ├── extend@3.0.1 
+│ ├─┬ form-data@2.3.1 
+│ │ └── asynckit@0.4.0 
+│ ├─┬ har-validator@5.0.3 
+│ │ ├─┬ ajv@5.2.3 
+│ │ │ ├── co@4.6.0 
+│ │ │ ├── fast-deep-equal@1.0.0 
+│ │ │ ├── json-schema-traverse@0.3.1 
+│ │ │ └─┬ json-stable-stringify@1.0.1 
+│ │ │   └── jsonify@0.0.0 
+│ │ └── har-schema@2.0.0 
+│ ├─┬ hawk@6.0.2 
+│ │ ├── boom@4.3.1 
+│ │ ├─┬ cryptiles@3.1.2 
+│ │ │ └── boom@5.2.0 
+│ │ ├── hoek@4.2.0 
+│ │ └── sntp@2.0.2 
+│ ├─┬ http-signature@1.2.0 
+│ │ ├── assert-plus@1.0.0 
+│ │ ├─┬ jsprim@1.4.1 
+│ │ │ ├── extsprintf@1.3.0 
+│ │ │ ├── json-schema@0.2.3 
+│ │ │ └─┬ verror@1.10.0 
+│ │ │   └── core-util-is@1.0.2 
+│ │ └─┬ sshpk@1.13.1 
+│ │   ├── bcrypt-pbkdf@1.0.1 
+│ │   ├── dashdash@1.14.1 
+│ │   ├── getpass@0.1.7 
+│ │   ├── jsbn@0.1.1 
+│ │   └── tweetnacl@0.14.5 
+│ ├─┬ mime-types@2.1.17 
+│ │ └── mime-db@1.30.0 
+│ ├── oauth-sign@0.8.2 
+│ ├── performance-now@2.1.0 
+│ ├── qs@6.5.1 
+│ ├─┬ tough-cookie@2.3.3 
+│ │ └── punycode@1.4.1 
+│ └── tunnel-agent@0.6.0 
+├── rimraf@2.6.2 
+├── safe-buffer@5.1.1 
+├── semver@5.4.1 
+├── ssri@5.0.0 
+├─┬ strip-ansi@4.0.0 
+│ └── ansi-regex@3.0.0 
+├─┬ tar@4.0.2 
+│ ├── minipass@2.2.1 
+│ ├── minizlib@1.0.4 
+│ └── yallist@3.0.2 
+├─┬ update-notifier@2.3.0 
+│ ├─┬ boxen@1.2.1 
+│ │ ├── ansi-align@2.0.0 
+│ │ ├── camelcase@4.1.0 
+│ │ ├── cli-boxes@1.0.0 
+│ │ ├─┬ string-width@2.1.1 
+│ │ │ └── is-fullwidth-code-point@2.0.0 
+│ │ ├─┬ term-size@1.2.0 
+│ │ │ └─┬ execa@0.7.0 
+│ │ │   ├─┬ cross-spawn@5.1.0 
+│ │ │   │ └─┬ shebang-command@1.2.0 
+│ │ │   │   └── shebang-regex@1.0.0 
+│ │ │   ├── get-stream@3.0.0 
+│ │ │   ├── is-stream@1.1.0 
+│ │ │   ├─┬ npm-run-path@2.0.2 
+│ │ │   │ └── path-key@2.0.1 
+│ │ │   ├── p-finally@1.0.0 
+│ │ │   ├── signal-exit@3.0.2 
+│ │ │   └── strip-eof@1.0.0 
+│ │ └─┬ widest-line@1.0.0 
+│ │   └─┬ string-width@1.0.2 
+│ │     ├── code-point-at@1.1.0 
+│ │     ├─┬ is-fullwidth-code-point@1.0.0 
+│ │     │ └── number-is-nan@1.0.1 
+│ │     └─┬ strip-ansi@3.0.1 
+│ │       └── ansi-regex@2.1.1 
+│ ├─┬ chalk@2.1.0 
+│ │ ├─┬ ansi-styles@3.2.0 
+│ │ │ └─┬ color-convert@1.9.0 
+│ │ │   └── color-name@1.1.3 
+│ │ ├── escape-string-regexp@1.0.5 
+│ │ └─┬ supports-color@4.4.0 
+│ │   └── has-flag@2.0.0 
+│ ├─┬ configstore@3.1.1 
+│ │ ├─┬ dot-prop@4.2.0 
+│ │ │ └── is-obj@1.0.1 
+│ │ ├─┬ make-dir@1.0.0 
+│ │ │ └── pify@2.3.0 
+│ │ └─┬ unique-string@1.0.0 
+│ │   └── crypto-random-string@1.0.0 
+│ ├── import-lazy@2.1.0 
+│ ├─┬ is-installed-globally@0.1.0 
+│ │ ├── global-dirs@0.1.0 
+│ │ └── is-path-inside@1.0.0 
+│ ├── is-npm@1.0.0 
+│ ├─┬ latest-version@3.1.0 
+│ │ └─┬ package-json@4.0.1 
+│ │   ├─┬ got@6.7.1 
+│ │   │ ├─┬ create-error-class@3.0.2 
+│ │   │ │ └── capture-stack-trace@1.0.0 
+│ │   │ ├── duplexer3@0.1.4 
+│ │   │ ├── get-stream@3.0.0 
+│ │   │ ├── is-redirect@1.0.0 
+│ │   │ ├── is-retry-allowed@1.1.0 
+│ │   │ ├── is-stream@1.1.0 
+│ │   │ ├── lowercase-keys@1.0.0 
+│ │   │ ├── timed-out@4.0.1 
+│ │   │ ├── unzip-response@2.0.1 
+│ │   │ └─┬ url-parse-lax@1.0.0 
+│ │   │   └── prepend-http@1.0.4 
+│ │   ├─┬ registry-auth-token@3.3.1 
+│ │   │ └─┬ rc@1.2.1 
+│ │   │   ├── deep-extend@0.4.2 
+│ │   │   ├── minimist@1.2.0 
+│ │   │   └── strip-json-comments@2.0.1 
+│ │   └─┬ registry-url@3.1.0 
+│ │     └─┬ rc@1.2.1 
+│ │       ├── deep-extend@0.4.2 
+│ │       ├── minimist@1.2.0 
+│ │       └── strip-json-comments@2.0.1 
+│ ├── semver-diff@2.1.0 
+│ └── xdg-basedir@3.0.0 
+├── uuid@3.1.0 
+├─┬ which@1.3.0 
+│ └── isexe@2.0.0 
+├─┬ worker-farm@1.5.1 
+│ ├─┬ errno@0.1.4 
+│ │ └── prr@0.0.0 
+│ └── xtend@4.0.1 
+└── write-file-atomic@2.1.0 
+
+MrTang:AwesomeProject zonyet$ npm start
+npm WARN npm npm does not support Node.js v5.7.0
+npm WARN npm You should probably upgrade to a newer version of node as we
+npm WARN npm can't make any promises that npm will work with this version.
+npm WARN npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
+npm WARN npm You can find the latest version at https://nodejs.org/
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zonyet/.npm/_logs/2017-12-19T08_44_17_951Z-debug.log
+MrTang:AwesomeProject zonyet$ npm start
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zonyet/.npm/_logs/2017-12-19T08_51_26_550Z-debug.log
+MrTang:AwesomeProject zonyet$ 
+MrTang:AwesomeProject zonyet$ 
+MrTang:AwesomeProject zonyet$ 
+MrTang:AwesomeProject zonyet$ 
+MrTang:AwesomeProject zonyet$ 
+MrTang:AwesomeProject zonyet$ npm start
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zonyet/.npm/_logs/2017-12-19T08_51_55_348Z-debug.log
+MrTang:AwesomeProject zonyet$ npm start
+
+> AwesomeProject@0.1.0 start /Users/zonyet/AwesomeProject
+> node lib/server.js
+
+module.js:538
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/zonyet/AwesomeProject/lib/server.js'
+    at Function.Module._resolveFilename (module.js:536:15)
+    at Function.Module._load (module.js:466:25)
+    at Function.Module.runMain (module.js:676:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! AwesomeProject@0.1.0 start: `node lib/server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the AwesomeProject@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zonyet/.npm/_logs/2017-12-19T08_54_07_136Z-debug.log
+MrTang:AwesomeProject zonyet$ cd ..
+MrTang:~ zonyet$ rm -rf AwesomeProject
+MrTang:~ zonyet$ create-react-native-app AwesomeProject
+Creating a new React Native app in /Users/zonyet/AwesomeProject.
+
+Using package manager as npm with npm interface.
+Installing packages. This might take a couple minutes.
+Installing react-native-scripts...
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN react-redux@5.0.6 requires a peer of react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0 but none is installed. You must install peer dependencies yourself.
+
++ react-native-scripts@1.8.1
+added 422 packages in 82.641s
+
+*******************************************************************************
+ERROR: npm 5 is not supported yet
+*******************************************************************************
+
+It looks like you're using npm 5 which was recently released.
+
+Create React Native App doesn't work with npm 5 yet, unfortunately. We
+recommend using npm 4 or yarn until some bugs are resolved.
+
+You can follow the known issues with npm 5 at:
+https://github.com/npm/npm/issues/16991
+
+*******************************************************************************
+ 
+MrTang:~ zonyet$ npm version
+{ npm: '5.5.1',
+  ares: '1.10.1-DEV',
+  cldr: '31.0.1',
+  http_parser: '2.7.0',
+  icu: '59.1',
+  modules: '57',
+  nghttp2: '1.25.0',
+  node: '8.9.3',
+  openssl: '1.0.2n',
+  tz: '2017b',
+  unicode: '9.0',
+  uv: '1.15.0',
+  v8: '6.1.534.48',
+  zlib: '1.2.11' }
+MrTang:~ zonyet$ npm -v
+5.5.1
+MrTang:~ zonyet$ npm view indicative versions
+ 
+[ '0.0.0',
+  '0.0.1',
+  '0.0.2',
+  '0.0.3',
+  '0.0.4',
+  '0.0.5',
+  '1.0.0',
+  '1.0.1',
+  '1.0.2',
+  '1.0.3',
+  '1.0.4',
+  '1.0.5',
+  '1.0.6',
+  '1.0.7',
+  '1.0.8',
+  '1.0.9',
+  '1.1.0',
+  '1.1.1',
+  '1.1.2',
+  '1.2.1',
+  '1.2.2',
+  '1.2.3',
+  '1.2.4',
+  '1.2.5',
+  '1.2.6',
+  '1.2.7',
+  '1.2.8',
+  '1.2.9',
+  '1.2.10',
+  '1.3.0',
+  '1.3.1',
+  '2.0.0',
+  '2.0.1',
+  '2.0.2',
+  '2.0.3',
+  '2.0.5',
+  '2.0.6',
+  '2.1.0',
+  '2.1.1',
+  '2.1.2',
+  '2.2.0',
+  '2.2.1',
+  '3.0.0',
+  '3.0.1',
+  '3.0.2',
+  '3.0.3',
+  '3.0.4',
+  '3.0.5',
+  '3.0.6' ]
+
+MrTang:~ zonyet$ npm info version
+ 
+{ name: 'version',
+  description: 'NodeJS package.json version number fetcher',
+  'dist-tags': { latest: '0.1.2' },
+  versions: [ '0.0.1', '0.0.3', '0.0.4', '0.1.0', '0.1.1', '0.1.2' ],
+  maintainers: [ 'edwardhotchkiss <e@ingk.com>' ],
+  time: 
+   { modified: '2013-06-27T20:02:18.148Z',
+     created: '2011-11-30T00:03:48.827Z',
+     '0.0.1': '2011-11-30T00:03:50.386Z',
+     '0.0.3': '2011-11-30T03:23:11.509Z',
+     '0.0.4': '2011-11-30T19:24:30.375Z',
+     '0.1.0': '2012-06-21T00:06:18.669Z',
+     '0.1.1': '2013-02-09T18:24:18.849Z',
+     '0.1.2': '2013-06-27T20:02:18.148Z' },
+  author: 'Edward Hotchkiss <edwardhotchkiss@me.com>',
+  repository: 
+   { type: 'git',
+     url: 'git://github.com/edwardhotchkiss/version.git' },
+  version: '0.1.2',
+  contributors: 
+   [ 'Edward Hotchkiss <edwardhotchkiss@me.com>',
+     'Jamie Nguyen',
+     'Juho Vepsäläinen' ],
+  keywords: [ 'version', 'package', 'json', 'display', 'number' ],
+  main: './lib/version',
+  engines: { node: '>= 0.8.0' },
+  licenses: 
+   [ { type: 'MIT',
+       url: 'http://github.com/edwardhotchkiss/short/LICENSE' } ],
+  dependencies: { request: '2.12.0' },
+  devDependencies: { vows: '0.7.0' },
+  scripts: { test: 'vows test/*.test.js --spec' },
+  readme: '\n# version \n\n> Node.js package.json version number fetcher\n\n[![Build Status](https://secure.travis-ci.org/edwardhotchkiss/version.png)](http://travis-ci.org/edwardhotchkiss/version)\n\n### Installation\n\n```bash\n$ npm install version\n```\n\n### Example (basic)\n\n```javascript\nvar version = require(\'version\');\n\nversion.fetch(\'express\', function(error, version) {\n  if (error) {\n    console.error(error);\n  } else {\n    console.log(\'express current version: \', version);\n  };\n});\n```\n\n### Example (RegExp formating)\n\n```javascript\nvar version = require(\'version\');\n\nversion.fetch(\'express\', { from : /^/gi, to : "v" }, function(error, version) {\n  if (error) {\n    console.error(error);\n  } else {\n    console.log(\'express current version with formating:\', version);\n  };\n});\n```\n\n### Example (Current Projects package.json)\n\n```javascript\nvar version = require(\'version\');\n\nversion.fetch(function(error, version) {\n  if (error) {\n    console.error(error);\n  } else {\n    console.log(\'`version` package current version:\', version);\n  };\n});\n```\n',
+  readmeFilename: 'README.md',
+  dist: 
+   { shasum: 'ab071b0e39c9a34e9308dd8cd7845795deeca70f',
+     tarball: 'https://registry.npmjs.org/version/-/version-0.1.2.tgz' },
+  directories: {} }
+
+MrTang:~ zonyet$ npm views npm versions
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, doctor, edit,
+    explore, get, help, help-search, i, init, install,
+    install-test, it, link, list, ln, login, logout, ls,
+    outdated, owner, pack, ping, prefix, profile, prune,
+    publish, rb, rebuild, repo, restart, root, run, run-script,
+    s, se, search, set, shrinkwrap, star, stars, start, stop, t,
+    team, test, token, tst, un, uninstall, unpublish, unstar,
+    up, update, v, version, view, whoami
+
+npm <command> -h     quick help on <command>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/zonyet/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@5.5.1 /usr/local/lib/node_modules/npm
+
+Did you mean this?
+    view
+MrTang:~ zonyet$ npm view npm versions
+ 
+[ '1.1.25',
+  '1.1.70',
+  '1.1.71',
+  '1.2.19',
+  '1.2.20',
+  '1.2.21',
+  '1.2.22',
+  '1.2.23',
+  '1.2.24',
+  '1.2.25',
+  '1.2.27',
+  '1.2.28',
+  '1.2.30',
+  '1.2.31',
+  '1.2.32',
+  '1.2.8000',
+  '1.3.0',
+  '1.3.1',
+  '1.3.2',
+  '1.3.4',
+  '1.3.5',
+  '1.3.6',
+  '1.3.7',
+  '1.3.8',
+  '1.3.9',
+  '1.3.10',
+  '1.3.11',
+  '1.3.12',
+  '1.3.13',
+  '1.3.14',
+  '1.3.15',
+  '1.3.16',
+  '1.3.17',
+  '1.3.18',
+  '1.3.20',
+  '1.3.21',
+  '1.3.22',
+  '1.3.23',
+  '1.3.24',
+  '1.3.25',
+  '1.3.26',
+  '1.4.0',
+  '1.4.1',
+  '1.4.2',
+  '1.4.3',
+  '1.4.4',
+  '1.4.5',
+  '1.4.6',
+  '1.4.7',
+  '1.4.8',
+  '1.4.9',
+  '1.4.10',
+  '1.4.11',
+  '1.4.12',
+  '1.4.13',
+  '1.4.14',
+  '1.4.15',
+  '1.4.16',
+  '1.4.17',
+  '1.4.18',
+  '1.4.19',
+  '1.4.20',
+  '1.4.21',
+  '1.4.22',
+  '1.4.23',
+  '1.4.24',
+  '1.4.25',
+  '1.4.26',
+  '1.4.27',
+  '1.4.28',
+  '1.4.29',
+  '1.5.0-alpha-0',
+  '1.5.0-alpha-1',
+  '1.5.0-alpha-2',
+  '1.5.0-alpha-3',
+  '1.5.0-alpha-4',
+  '2.0.0-alpha.6',
+  '2.0.0-alpha.6.0',
+  '2.0.0-alpha.7',
+  '2.0.0-alpha-5',
+  '2.0.0-beta.0',
+  '2.0.0-beta.1',
+  '2.0.0-beta.2',
+  '2.0.0-beta.3',
+  '2.0.0',
+  '2.0.1',
+  '2.0.2',
+  '2.1.0',
+  '2.1.1',
+  '2.1.2',
+  '2.1.3',
+  '2.1.4',
+  '2.1.5',
+  '2.1.6',
+  '2.1.7',
+  '2.1.8',
+  '2.1.9',
+  '2.1.10',
+  '2.1.11',
+  '2.1.12',
+  ... 173 more items ]
+
+MrTang:~ zonyet$ npm -g install npm@4.1.2
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/abbrev
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/aproba
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/bluebird
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cacache/node_modules/lru-cache/node_modules/pseudomap
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cacache/node_modules/lru-cache/node_modules/yallist
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cacache/node_modules/lru-cache
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cacache/node_modules/y18n
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/call-limit
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/colors
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/lodash
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width/node_modules/code-point-at
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width/node_modules/is-fullwidth-code-point
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width/node_modules/strip-ansi/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width/node_modules/strip-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/strip-ansi/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/strip-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules/clone
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/config-chain/node_modules/proto-list
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/debuglog
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/detect-indent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/dezalgo/node_modules/asap
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/fs.realpath
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/path-is-absolute
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/graceful-fs
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/has-unicode
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/hosted-git-info
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/iferr
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/imurmurhash
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/inherits
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ini
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/is-cidr/node_modules/cidr-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/is-cidr
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/JSONStream/node_modules/jsonparse
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/JSONStream/node_modules/through
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lazy-property
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/dotenv
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/y18n
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/camelcase
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/string-width/node_modules/code-point-at
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/string-width/node_modules/is-fullwidth-code-point
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/strip-ansi/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/strip-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/string-width
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/wrap-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/decamelize
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/get-caller-file
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/cross-spawn/node_modules/shebang-command/node_modules/shebang-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/cross-spawn/node_modules/shebang-command
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/get-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/is-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/npm-run-path/node_modules/path-key
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/npm-run-path
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/p-finally
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/signal-exit
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/strip-eof
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/lcid/node_modules/invert-kv
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/lcid
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/mem/node_modules/mimic-fn
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/mem
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/find-up/node_modules/locate-path/node_modules/p-locate/node_modules/p-limit
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/find-up/node_modules/locate-path/node_modules/p-locate
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/find-up/node_modules/locate-path/node_modules/path-exists
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/find-up/node_modules/locate-path
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/find-up
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/require-directory
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/require-main-filename
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/set-blocking
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/string-width
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/which-module
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/yargs-parser
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseuniq/node_modules/lodash._createset
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseuniq/node_modules/lodash._root
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._getnative
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lru-cache/node_modules/pseudomap
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lru-cache/node_modules/yallist
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lru-cache
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/cross-spawn
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/meant
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules/typedarray
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules/stream-shift
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/parallel-transform/node_modules/cyclist
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/parallel-transform
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/stream-each/node_modules/stream-shift
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules/xtend
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mkdirp/node_modules/minimist
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mkdirp
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/move-concurrently/node_modules/run-queue
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/move-concurrently/node_modules/copy-concurrently
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/move-concurrently
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/fstream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/brace-expansion
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/semver
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/tar/node_modules/block-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/tar
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/node_modules/is-builtin-module
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk/node_modules/minimatch/node_modules/brace-expansion
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk/node_modules/minimatch
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/npm-bundled
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/agentkeepalive/node_modules/humanize-ms/node_modules/ms
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/agentkeepalive/node_modules/humanize-ms
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/agentkeepalive
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-cache-semantics
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules/es6-promise
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base/node_modules/es6-promisify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/debug/node_modules/ms
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/debug
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules/es6-promise
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base/node_modules/es6-promisify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/debug/node_modules/ms
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/debug
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules/encoding/node_modules/iconv-lite
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules/encoding
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules/json-parse-better-errors
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/promise-retry/node_modules/err-code
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/promise-retry
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules/es6-promise
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base/node_modules/es6-promisify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/socks/node_modules/ip
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/socks/node_modules/smart-buffer
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/socks
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/typedarray
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules/delegates
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/console-control-strings
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/object-assign
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/signal-exit
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/code-point-at
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/strip-ansi/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/strip-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/set-blocking
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/osenv/node_modules/os-homedir
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/osenv/node_modules/os-tmpdir
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/osenv
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/agentkeepalive/node_modules/humanize-ms/node_modules/ms
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/agentkeepalive/node_modules/humanize-ms
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/agentkeepalive
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-cache-semantics
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules/es6-promise
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base/node_modules/es6-promisify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/debug/node_modules/ms
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/debug
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules/es6-promise
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base/node_modules/es6-promisify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/debug/node_modules/ms
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/debug
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules/encoding/node_modules/iconv-lite
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules/encoding
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules/json-parse-better-errors
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules/es6-promise
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base/node_modules/es6-promisify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/socks/node_modules/ip
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/socks/node_modules/smart-buffer
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/socks
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/minimatch/node_modules/brace-expansion
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/minimatch
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/npm-pick-manifest
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/promise-retry/node_modules/err-code
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/promise-retry
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/protoduck/node_modules/genfun
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/protoduck
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/path-is-inside
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/promise-inflight
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/qrcode-terminal
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/query-string/node_modules/decode-uri-component
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/query-string/node_modules/object-assign
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/query-string/node_modules/strict-uri-encode
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/query-string
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/qw
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/util-extend
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/json-parse-better-errors
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/slash
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read/node_modules/mute-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/core-util-is
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/isarray
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/process-nextick-args
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/util-deprecate
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/aws-sign2
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/aws4
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/caseless
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/combined-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/extend
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/forever-agent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/asynckit
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/co
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/fast-deep-equal
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/json-schema-traverse
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/json-stable-stringify/node_modules/jsonify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/json-stable-stringify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/har-schema
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules/boom
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/hoek
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/boom
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/sntp
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/assert-plus
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/core-util-is
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/is-typedarray
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/isstream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/json-stringify-safe
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/mime-types/node_modules/mime-db
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/mime-types
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/oauth-sign
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/performance-now
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/qs
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/stringstream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tough-cookie/node_modules/punycode
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tough-cookie
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/retry
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/safe-buffer
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/node-fetch-npm
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/node-fetch-npm
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules/string_decoder
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/flush-write-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/from2
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/semver
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-package-arg
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/slide
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream/node_modules/core-util-is
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream/node_modules/isarray
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream/node_modules/string_decoder
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/stream-iterate/node_modules/stream-shift
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/stream-iterate
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ssri
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cacache
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/strip-ansi/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/strip-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/wide-align
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/yallist
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/minipass
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/minizlib
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/unique-filename/node_modules/unique-slug
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/camelcase
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/cli-boxes
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/string-width/node_modules/is-fullwidth-code-point
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/string-width/node_modules/strip-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/string-width
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/ansi-align
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules/execa/node_modules/cross-spawn-async
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules/execa/node_modules/is-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules/execa/node_modules/object-assign
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules/execa/node_modules/path-key
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules/execa/node_modules/npm-run-path
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules/execa/node_modules/strip-eof
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules/execa
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width/node_modules/code-point-at
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width/node_modules/is-fullwidth-code-point
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width/node_modules/strip-ansi/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width/node_modules/strip-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/ansi-styles
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/escape-string-regexp
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/has-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/strip-ansi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/supports-color
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/dot-prop/node_modules/is-obj
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/dot-prop
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/make-dir/node_modules/pify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/make-dir
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/unique-string/node_modules/crypto-random-string
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/unique-string
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/import-lazy
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/is-npm
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/create-error-class/node_modules/capture-stack-trace
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/create-error-class
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/duplexer3
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/get-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/is-redirect
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/is-retry-allowed
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/is-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/lowercase-keys
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/timed-out
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/unzip-response
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/url-parse-lax/node_modules/prepend-http
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/url-parse-lax
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-auth-token/node_modules/rc/node_modules/deep-extend
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-auth-token/node_modules/rc/node_modules/minimist
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-auth-token/node_modules/rc/node_modules/strip-json-comments
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-auth-token/node_modules/rc
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-auth-token
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/rc/node_modules/deep-extend
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/rc/node_modules/minimist
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/rc/node_modules/strip-json-comments
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/rc
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/semver-diff
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/xdg-basedir
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/uuid
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-correct
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name/node_modules/builtins
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/which/node_modules/isexe
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/which
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/worker-farm/node_modules/errno/node_modules/prr
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/worker-farm/node_modules/errno
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/worker-farm/node_modules/xtend
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/worker-farm
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/wrappy
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/dezalgo
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules/end-of-stream/node_modules/once
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules/end-of-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/end-of-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/stream-each
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/once
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/inflight
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/rimraf
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/tar
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/pump
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/pumpify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readdir-scoped-modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ansicolors
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ansistyles
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/archy
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/chownr
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cmd-shim
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/config-chain
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/editor
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fs-vacuum
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fs-write-stream-atomic
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/JSONStream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lockfile
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseindexof
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseuniq
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._bindcallback
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._cacheindexof
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._createcache
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.clonedeep
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.restparam
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.union
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.uniq
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash.without
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/nopt
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-cache-filename
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-install-checks
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-user-validate
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/opener
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-cmd-shim
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-installed
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-tree
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sha
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-object
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/text-table
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/uid-number
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/umask
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/unique-filename
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/unpipe
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/write-file-atomic
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cacache/node_modules/lru-cache/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cacache/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/cli-table2/node_modules/string-width/node_modules/strip-ansi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/strip-ansi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/config-chain/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/dezalgo/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/is-cidr/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/JSONStream/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/string-width/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules/strip-ansi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/cliui/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/cross-spawn/node_modules/shebang-command/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/cross-spawn/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/execa/node_modules/npm-run-path/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/lcid/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/os-locale/node_modules/mem/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/find-up/node_modules/locate-path/node_modules/p-locate/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/find-up/node_modules/locate-path/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/find-up/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/libnpx/node_modules/yargs/node_modules/string-width/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lodash._baseuniq/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/lru-cache/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/concat-stream/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/parallel-transform/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/stream-each/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/through2/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mkdirp/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/move-concurrently/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/brace-expansion/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/tar/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk/node_modules/minimatch/node_modules/brace-expansion/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk/node_modules/minimatch/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-packlist/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/agentkeepalive/node_modules/humanize-ms/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/agentkeepalive/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/debug/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/debug/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules/encoding/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/promise-retry/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/socks/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/are-we-there-yet/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/gauge/node_modules/strip-ansi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/osenv/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/agentkeepalive/node_modules/humanize-ms/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/agentkeepalive/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/agent-base/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/http-proxy-agent/node_modules/debug/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/agent-base/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/https-proxy-agent/node_modules/debug/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules/encoding/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/node-fetch-npm/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base/node_modules/es6-promisify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/agent-base/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/make-fetch-happen/node_modules/socks-proxy-agent/node_modules/socks/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/minimatch/node_modules/brace-expansion/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/minimatch/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/promise-retry/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/protoduck/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/query-string/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/read/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/readable-stream/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/combined-stream/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/json-stable-stringify/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/mime-types/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tough-cookie/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules/readable-stream/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/sorted-union-stream/node_modules/stream-iterate/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-profile/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/strip-ansi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/tar/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/unique-filename/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/string-width/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules/execa/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/term-size/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules/string-width/node_modules/strip-ansi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/boxen/node_modules/widest-line/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/has-ansi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/chalk/node_modules/strip-ansi/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/dot-prop/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/make-dir/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/configstore/node_modules/unique-string/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/create-error-class/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/got/node_modules/url-parse-lax/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-auth-token/node_modules/rc/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-auth-token/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/rc/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/update-notifier/node_modules/latest-version/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/which/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/worker-farm/node_modules/errno/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/worker-farm/node_modules
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/mississippi/node_modules/duplexify/node_modules/end-of-stream/node_modules
+npm ERR! path /usr/local/lib/node_modules/npm/node_modules/abbrev
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall access
+npm ERR! Error: EACCES: permission denied, access '/usr/local/lib/node_modules/npm/node_modules/abbrev'
+npm ERR!  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules/npm/node_modules/abbrev'
+npm ERR!   stack: 'Error: EACCES: permission denied, access \'/usr/local/lib/node_modules/npm/node_modules/abbrev\'',
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'access',
+npm ERR!   path: '/usr/local/lib/node_modules/npm/node_modules/abbrev' }
+npm ERR! 
+npm ERR! Please try running this command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zonyet/.npm/_logs/2017-12-19T09_11_17_101Z-debug.log
+MrTang:~ zonyet$ sudo npm -g install npm@4.2.2
+npm ERR! code ETARGET
+npm ERR! notarget No matching version found for npm@4.2.2
+npm ERR! notarget In most cases you or one of your dependencies are requesting
+npm ERR! notarget a package version that doesn't exist.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zonyet/.npm/_logs/2017-12-19T09_11_41_717Z-debug.log
+MrTang:~ zonyet$ sudo npm -g install npm@4.3.2
+npm ERR! code ETARGET
+npm ERR! notarget No matching version found for npm@4.3.2
+npm ERR! notarget In most cases you or one of your dependencies are requesting
+npm ERR! notarget a package version that doesn't exist.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zonyet/.npm/_logs/2017-12-19T09_11_52_902Z-debug.log
+MrTang:~ zonyet$ sudo npm -g install npm@4.1.2
+/usr/local/bin/npm -> /usr/local/lib/node_modules/npm/bin/npm-cli.js
++ npm@4.1.2
+added 68 packages, removed 266 packages and updated 194 packages in 7.53s
+MrTang:~ zonyet$ npm -v
+4.1.2
+MrTang:~ zonyet$ cd AwesomeProject/
+MrTang:AwesomeProject zonyet$ npm start
+npm ERR! Darwin 16.7.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v8.9.3
+npm ERR! npm  v4.1.2
+
+npm ERR! missing script: start
+npm ERR! 
+npm ERR! If you need help, you may report this error at:
+npm ERR!     <https://github.com/npm/npm/issues>
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/zonyet/AwesomeProject/npm-debug.log
+MrTang:AwesomeProject zonyet$ npm i -g create-react-native-app
+/usr/local/bin/create-react-native-app -> /usr/local/lib/node_modules/create-react-native-app/build/index.js
+/usr/local/lib
+└── create-react-native-app@1.0.0 
+
+MrTang:AwesomeProject zonyet$ cd ..
+MrTang:~ zonyet$ rm -rf AwesomeProject
+MrTang:~ zonyet$ create-react-native-app AwesomeProject
+Creating a new React Native app in /Users/zonyet/AwesomeProject.
+
+Using package manager as npm with npm interface.
+Installing packages. This might take a couple minutes.
+Installing react-native-scripts...
+
+AwesomeProject@0.1.0 /Users/zonyet/AwesomeProject
+└─┬ react-native-scripts@1.8.1 
+  ├─┬ @expo/bunyan@1.8.10 
+  │ ├── moment@2.20.1 
+  │ ├─┬ mv@2.1.1 
+  │ │ └─┬ rimraf@2.4.5 
+  │ │   └── glob@6.0.4 
+  │ └── safe-json-stringify@1.0.4 
+  ├─┬ babel-runtime@6.26.0 
+  │ ├── core-js@2.5.3 
+  │ └── regenerator-runtime@0.11.1 
+  ├─┬ chalk@2.3.0 
+  │ ├─┬ ansi-styles@3.2.0 
+  │ │ └─┬ color-convert@1.9.1 
+  │ │   └── color-name@1.1.3 
+  │ ├── escape-string-regexp@1.0.5 
+  │ └─┬ supports-color@4.5.0 
+  │   └── has-flag@2.0.0 
+  ├─┬ cross-spawn@5.1.0 
+  │ ├─┬ lru-cache@4.1.1 
+  │ │ ├── pseudomap@1.0.2 
+  │ │ └── yallist@2.1.2 
+  │ ├─┬ shebang-command@1.2.0 
+  │ │ └── shebang-regex@1.0.0 
+  │ └─┬ which@1.3.0 
+  │   └── isexe@2.0.0 
+  ├─┬ fs-extra@3.0.1 
+  │ ├── graceful-fs@4.1.11 
+  │ ├── jsonfile@3.0.1 
+  │ └── universalify@0.1.1 
+  ├── indent-string@3.2.0 
+  ├─┬ inquirer@3.3.0 
+  │ ├── ansi-escapes@3.0.0 
+  │ ├─┬ cli-cursor@2.1.0 
+  │ │ └─┬ restore-cursor@2.0.0 
+  │ │   ├─┬ onetime@2.0.1 
+  │ │   │ └── mimic-fn@1.1.0 
+  │ │   └── signal-exit@3.0.2 
+  │ ├── cli-width@2.2.0 
+  │ ├─┬ external-editor@2.1.0 
+  │ │ ├── chardet@0.4.2 
+  │ │ ├── iconv-lite@0.4.19 
+  │ │ └─┬ tmp@0.0.33 
+  │ │   └── os-tmpdir@1.0.2 
+  │ ├── figures@2.0.0 
+  │ ├── mute-stream@0.0.7 
+  │ ├─┬ run-async@2.3.0 
+  │ │ └── is-promise@2.1.0 
+  │ ├── rx-lite@4.0.8 
+  │ ├── rx-lite-aggregates@4.0.8 
+  │ ├─┬ string-width@2.1.1 
+  │ │ └── is-fullwidth-code-point@2.0.0 
+  │ ├─┬ strip-ansi@4.0.0 
+  │ │ └── ansi-regex@3.0.0 
+  │ └── through@2.3.8 
+  ├── lodash@4.17.4 
+  ├─┬ match-require@2.1.0 
+  │ └── uuid@3.1.0 
+  ├── minimist@1.2.0 
+  ├── path-exists@3.0.0 
+  ├── progress@2.0.0 
+  ├── qrcode-terminal@0.11.0 
+  ├─┬ rimraf@2.6.2 
+  │ └─┬ glob@7.1.2 
+  │   ├── fs.realpath@1.0.0 
+  │   ├─┬ inflight@1.0.6 
+  │   │ └── wrappy@1.0.2 
+  │   ├── inherits@2.0.3 
+  │   ├─┬ minimatch@3.0.4 
+  │   │ └─┬ brace-expansion@1.1.8 
+  │   │   ├── balanced-match@1.0.0 
+  │   │   └── concat-map@0.0.1 
+  │   ├── once@1.4.0 
+  │   └── path-is-absolute@1.0.1 
+  └─┬ xdl@47.0.4 
+    ├─┬ @expo/json-file@5.3.0 
+    │ └── json5@0.5.1 
+    ├─┬ @expo/osascript@1.8.1 
+    │ └── exec-async@2.2.0 
+    ├─┬ @expo/schemer@1.1.0 
+    │ ├─┬ ajv@5.5.2 
+    │ │ ├── co@4.6.0 
+    │ │ ├── fast-deep-equal@1.0.0 
+    │ │ ├── fast-json-stable-stringify@2.0.0 
+    │ │ └── json-schema-traverse@0.3.1 
+    │ ├─┬ babel-polyfill@6.26.0 
+    │ │ └── regenerator-runtime@0.10.5 
+    │ ├─┬ babel-preset-flow@6.23.0 
+    │ │ └─┬ babel-plugin-transform-flow-strip-types@6.22.0 
+    │ │   └── babel-plugin-syntax-flow@6.18.0 
+    │ ├── file-type@5.2.0 
+    │ ├── instapromise@2.0.7 
+    │ └─┬ probe-image-size@3.2.0 
+    │   ├── deepmerge@1.5.2 
+    │   ├─┬ got@6.7.1 
+    │   │ ├─┬ create-error-class@3.0.2 
+    │   │ │ └── capture-stack-trace@1.0.0 
+    │   │ ├── duplexer3@0.1.4 
+    │   │ ├── get-stream@3.0.0 
+    │   │ ├── is-redirect@1.0.0 
+    │   │ ├── is-retry-allowed@1.1.0 
+    │   │ ├── is-stream@1.1.0 
+    │   │ ├── lowercase-keys@1.0.0 
+    │   │ ├── unzip-response@2.0.1 
+    │   │ └─┬ url-parse-lax@1.0.0 
+    │   │   └── prepend-http@1.0.4 
+    │   ├── next-tick@1.0.0 
+    │   └── stream-parser@0.3.1 
+    ├── @expo/spawn-async@1.3.0 
+    ├─┬ analytics-node@2.4.1 
+    │ ├─┬ @segment/loosely-validate-event@1.1.2 
+    │ │ ├── component-type@1.2.1 
+    │ │ └── join-component@1.1.0 
+    │ ├── clone@2.1.1 
+    │ ├── commander@2.12.2 
+    │ ├── crypto-token@1.0.1 
+    │ ├── debug@2.6.9 
+    │ ├── remove-trailing-slash@0.1.0 
+    │ ├─┬ superagent@3.8.2 
+    │ │ ├── component-emitter@1.2.1 
+    │ │ ├── cookiejar@2.1.1 
+    │ │ ├── debug@3.1.0 
+    │ │ ├── formidable@1.1.1 
+    │ │ └── mime@1.6.0 
+    │ └── superagent-retry@0.6.0 
+    ├─┬ auth0@2.9.1 
+    │ ├── bluebird@2.11.0 
+    │ ├─┬ lru-memoizer@1.11.1 
+    │ │ ├── lock@0.1.4 
+    │ │ ├── lodash@4.5.1 
+    │ │ ├── lru-cache@4.0.2 
+    │ │ └── very-fast-args@1.1.0 
+    │ ├─┬ object.assign@4.0.4 
+    │ │ ├── function-bind@1.1.1 
+    │ │ └── object-keys@1.0.11 
+    │ ├─┬ rest-facade@1.10.1 
+    │ │ ├── bluebird@2.11.0 
+    │ │ ├─┬ change-case@2.3.1 
+    │ │ │ ├── camel-case@1.2.2 
+    │ │ │ ├── constant-case@1.1.2 
+    │ │ │ ├── dot-case@1.1.2 
+    │ │ │ ├── is-lower-case@1.1.3 
+    │ │ │ ├── is-upper-case@1.1.2 
+    │ │ │ ├── lower-case@1.1.4 
+    │ │ │ ├── lower-case-first@1.0.2 
+    │ │ │ ├── param-case@1.1.2 
+    │ │ │ ├── pascal-case@1.1.2 
+    │ │ │ ├── path-case@1.1.2 
+    │ │ │ ├── sentence-case@1.1.3 
+    │ │ │ ├── snake-case@1.1.2 
+    │ │ │ ├── swap-case@1.1.2 
+    │ │ │ ├── title-case@1.1.2 
+    │ │ │ ├── upper-case@1.1.3 
+    │ │ │ └── upper-case-first@1.1.2 
+    │ │ └─┬ superagent-proxy@1.0.2 
+    │ │   └─┬ proxy-agent@2.1.0 
+    │ │     ├─┬ agent-base@2.1.1 
+    │ │     │ └── semver@5.0.3 
+    │ │     ├── http-proxy-agent@1.0.0 
+    │ │     ├── https-proxy-agent@1.0.0 
+    │ │     ├── lru-cache@2.6.5 
+    │ │     ├─┬ pac-proxy-agent@2.0.0 
+    │ │     │ ├─┬ get-uri@2.0.1 
+    │ │     │ │ ├── data-uri-to-buffer@1.2.0 
+    │ │     │ │ ├── file-uri-to-path@1.0.0 
+    │ │     │ │ └─┬ ftp@0.3.10 
+    │ │     │ │   ├─┬ readable-stream@1.1.14 
+    │ │     │ │   │ ├── isarray@0.0.1 
+    │ │     │ │   │ └── string_decoder@0.10.31 
+    │ │     │ │   └── xregexp@2.0.0 
+    │ │     │ ├─┬ pac-resolver@3.0.0 
+    │ │     │ │ ├─┬ degenerator@1.0.4 
+    │ │     │ │ │ ├── ast-types@0.10.1 
+    │ │     │ │ │ ├─┬ escodegen@1.9.0 
+    │ │     │ │ │ │ ├── estraverse@4.2.0 
+    │ │     │ │ │ │ ├── esutils@2.0.2 
+    │ │     │ │ │ │ └─┬ optionator@0.8.2 
+    │ │     │ │ │ │   ├── deep-is@0.1.3 
+    │ │     │ │ │ │   ├── fast-levenshtein@2.0.6 
+    │ │     │ │ │ │   ├── levn@0.3.0 
+    │ │     │ │ │ │   ├── prelude-ls@1.1.2 
+    │ │     │ │ │ │   ├── type-check@0.3.2 
+    │ │     │ │ │ │   └── wordwrap@1.0.0 
+    │ │     │ │ │ └── esprima@3.1.3 
+    │ │     │ │ ├── ip@1.1.5 
+    │ │     │ │ ├── netmask@1.0.6 
+    │ │     │ │ └── thunkify@2.1.2 
+    │ │     │ └─┬ socks-proxy-agent@3.0.1 
+    │ │     │   └─┬ agent-base@4.1.2 
+    │ │     │     └─┬ es6-promisify@5.0.0 
+    │ │     │       └── es6-promise@4.1.1 
+    │ │     └─┬ socks-proxy-agent@2.1.1 
+    │ │       └─┬ socks@1.1.10 
+    │ │         └── smart-buffer@1.1.15 
+    │ └── retry@0.10.1 
+    ├─┬ auth0-js@7.6.1 
+    │ ├── Base64@0.1.4 
+    │ ├── json-fallback@0.0.1 
+    │ ├── jsonp@0.0.4 
+    │ ├── qs@6.5.1 
+    │ ├── reqwest@2.0.5 
+    │ ├── trim@0.0.1 
+    │ ├── winchan@0.1.4 
+    │ └─┬ xtend@2.1.2 
+    │   └── object-keys@0.4.0 
+    ├─┬ axios@0.16.2 
+    │ ├─┬ follow-redirects@1.2.6 
+    │ │ └── debug@3.1.0 
+    │ └── is-buffer@1.1.6 
+    ├── bluebird@3.5.1 
+    ├─┬ body-parser@1.18.2 
+    │ ├── bytes@3.0.0 
+    │ ├── content-type@1.0.4 
+    │ ├── depd@1.1.1 
+    │ ├─┬ http-errors@1.6.2 
+    │ │ ├── setprototypeof@1.0.3 
+    │ │ └── statuses@1.4.0 
+    │ ├─┬ on-finished@2.3.0 
+    │ │ └── ee-first@1.1.1 
+    │ ├─┬ raw-body@2.3.2 
+    │ │ └── unpipe@1.0.0 
+    │ └─┬ type-is@1.6.15 
+    │   └── media-typer@0.3.0 
+    ├─┬ concat-stream@1.6.0 
+    │ ├─┬ readable-stream@2.3.3 
+    │ │ ├── core-util-is@1.0.2 
+    │ │ ├── isarray@1.0.0 
+    │ │ ├── process-nextick-args@1.0.7 
+    │ │ ├── string_decoder@1.0.3 
+    │ │ └── util-deprecate@1.0.2 
+    │ └── typedarray@0.0.6 
+    ├─┬ decache@4.3.0 
+    │ └── callsite@1.0.0 
+    ├── delay-async@1.1.0 
+    ├── es6-error@4.0.2 
+    ├── exists-async@2.0.0 
+    ├─┬ express@4.16.2 
+    │ ├─┬ accepts@1.3.4 
+    │ │ └── negotiator@0.6.1 
+    │ ├── array-flatten@1.1.1 
+    │ ├── content-disposition@0.5.2 
+    │ ├── cookie@0.3.1 
+    │ ├── cookie-signature@1.0.6 
+    │ ├── encodeurl@1.0.1 
+    │ ├── escape-html@1.0.3 
+    │ ├── etag@1.8.1 
+    │ ├─┬ finalhandler@1.1.0 
+    │ │ └── statuses@1.3.1 
+    │ ├── fresh@0.5.2 
+    │ ├── merge-descriptors@1.0.1 
+    │ ├── methods@1.1.2 
+    │ ├── parseurl@1.3.2 
+    │ ├── path-to-regexp@0.1.7 
+    │ ├─┬ proxy-addr@2.0.2 
+    │ │ ├── forwarded@0.1.2 
+    │ │ └── ipaddr.js@1.5.2 
+    │ ├── range-parser@1.2.0 
+    │ ├── safe-buffer@5.1.1 
+    │ ├─┬ send@0.16.1 
+    │ │ ├── destroy@1.0.4 
+    │ │ ├── mime@1.4.1 
+    │ │ └── statuses@1.3.1 
+    │ ├── serve-static@1.13.1 
+    │ ├── setprototypeof@1.1.0 
+    │ ├── statuses@1.3.1 
+    │ ├── utils-merge@1.0.1 
+    │ └── vary@1.1.2 
+    ├── file-type@4.4.0 
+    ├─┬ form-data@2.3.1 
+    │ ├── asynckit@0.4.0 
+    │ ├─┬ combined-stream@1.0.5 
+    │ │ └── delayed-stream@1.0.0 
+    │ └─┬ mime-types@2.1.17 
+    │   └── mime-db@1.30.0 
+    ├── freeport-async@1.1.1 
+    ├─┬ fs-extra@4.0.3 
+    │ └── jsonfile@4.0.0 
+    ├── getenv@0.7.0 
+    ├── glob@7.1.2 
+    ├─┬ globby@6.1.0 
+    │ ├─┬ array-union@1.0.2 
+    │ │ └── array-uniq@1.0.3 
+    │ ├── glob@7.1.2 
+    │ ├── object-assign@4.1.1 
+    │ ├── pify@2.3.0 
+    │ └─┬ pinkie-promise@2.0.1 
+    │   └── pinkie@2.0.4 
+    ├─┬ hasbin@1.2.3 
+    │ └── async@1.5.2 
+    ├── home-dir@1.0.0 
+    ├── idx@2.2.0 
+    ├── instapromise@2.0.7-rc.1 
+    ├─┬ joi@10.6.0 
+    │ ├── hoek@4.2.0 
+    │ ├── isemail@2.2.1 
+    │ ├── items@2.1.1 
+    │ └── topo@2.0.2 
+    ├── jsonfile@2.4.0 
+    ├── jsonschema@1.2.2 
+    ├─┬ jsonwebtoken@7.4.3 
+    │ ├─┬ joi@6.10.1 
+    │ │ ├── hoek@2.16.3 
+    │ │ ├── isemail@1.2.0 
+    │ │ └── topo@1.1.0 
+    │ ├─┬ jws@3.1.4 
+    │ │ ├── base64url@2.0.0 
+    │ │ └─┬ jwa@1.1.5 
+    │ │   ├── buffer-equal-constant-time@1.0.1 
+    │ │   └── ecdsa-sig-formatter@1.0.9 
+    │ ├── lodash.once@4.1.1 
+    │ ├── ms@2.0.0 
+    │ └── xtend@4.0.1 
+    ├── md5hex@1.0.0 
+    ├─┬ mkdirp@0.5.1 
+    │ └── minimist@0.0.8 
+    ├── mkdirp-promise@5.0.1 
+    ├─┬ mz@2.7.0 
+    │ ├── any-promise@1.3.0 
+    │ └─┬ thenify-all@1.6.0 
+    │   └── thenify@3.3.0 
+    ├── ncp@2.0.0 
+    ├── opn@4.0.2 
+    ├─┬ plist@2.1.0 
+    │ ├── base64-js@1.2.0 
+    │ └── xmlbuilder@8.2.2 
+    ├── querystring@0.2.0 
+    ├─┬ raven@2.3.0 
+    │ ├── lsmod@1.0.0 
+    │ ├── stack-trace@0.0.9 
+    │ ├── timed-out@4.0.1 
+    │ └── uuid@3.0.0 
+    ├── raven-js@3.21.0 
+    ├── UNMET PEER DEPENDENCY react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0
+    ├─┬ react-redux@5.0.6 
+    │ ├── hoist-non-react-statics@2.3.1 
+    │ ├── invariant@2.2.2 
+    │ ├── lodash-es@4.17.4 
+    │ ├─┬ loose-envify@1.3.1 
+    │ │ └── js-tokens@3.0.2 
+    │ └─┬ prop-types@15.6.0 
+    │   └─┬ fbjs@0.8.16 
+    │     ├── core-js@1.2.7 
+    │     ├─┬ isomorphic-fetch@2.2.1 
+    │     │ ├─┬ node-fetch@1.7.3 
+    │     │ │ └── encoding@0.1.12 
+    │     │ └── whatwg-fetch@2.0.3 
+    │     ├─┬ promise@7.3.1 
+    │     │ └── asap@2.0.6 
+    │     ├── setimmediate@1.0.5 
+    │     └── ua-parser-js@0.7.17 
+    ├─┬ read-chunk@2.1.0 
+    │ └── pify@3.0.0 
+    ├─┬ redux@3.7.2 
+    │ └── symbol-observable@1.1.0 
+    ├─┬ redux-logger@2.10.2 
+    │ └── deep-diff@0.3.4 
+    ├── replace-string@1.1.0 
+    ├─┬ request@2.83.0 
+    │ ├── aws-sign2@0.7.0 
+    │ ├── aws4@1.6.0 
+    │ ├── caseless@0.12.0 
+    │ ├── extend@3.0.1 
+    │ ├── forever-agent@0.6.1 
+    │ ├─┬ har-validator@5.0.3 
+    │ │ └── har-schema@2.0.0 
+    │ ├─┬ hawk@6.0.2 
+    │ │ ├── boom@4.3.1 
+    │ │ ├─┬ cryptiles@3.1.2 
+    │ │ │ └── boom@5.2.0 
+    │ │ └── sntp@2.1.0 
+    │ ├─┬ http-signature@1.2.0 
+    │ │ ├── assert-plus@1.0.0 
+    │ │ ├─┬ jsprim@1.4.1 
+    │ │ │ ├── extsprintf@1.3.0 
+    │ │ │ ├── json-schema@0.2.3 
+    │ │ │ └── verror@1.10.0 
+    │ │ └─┬ sshpk@1.13.1 
+    │ │   ├── asn1@0.2.3 
+    │ │   ├── bcrypt-pbkdf@1.0.1 
+    │ │   ├── dashdash@1.14.1 
+    │ │   ├── ecc-jsbn@0.1.1 
+    │ │   ├── getpass@0.1.7 
+    │ │   ├── jsbn@0.1.1 
+    │ │   └── tweetnacl@0.14.5 
+    │ ├── is-typedarray@1.0.0 
+    │ ├── isstream@0.1.2 
+    │ ├── json-stringify-safe@5.0.1 
+    │ ├── oauth-sign@0.8.2 
+    │ ├── performance-now@2.1.0 
+    │ ├── stringstream@0.0.5 
+    │ ├─┬ tough-cookie@2.3.3 
+    │ │ └── punycode@1.4.1 
+    │ └── tunnel-agent@0.6.0 
+    ├─┬ request-progress@3.0.0 
+    │ └── throttleit@1.0.0 
+    ├── semver@5.4.1 
+    ├─┬ slugid@1.1.0 
+    │ └── uuid@2.0.3 
+    ├── slugify@1.2.7 
+    ├─┬ source-map-support@0.4.18 
+    │ └── source-map@0.5.7 
+    ├─┬ tar@4.1.1 
+    │ ├── chownr@1.0.1 
+    │ ├── fs-minipass@1.2.3 
+    │ ├─┬ minipass@2.2.1 
+    │ │ └── yallist@3.0.2 
+    │ ├── minizlib@1.0.4 
+    │ └── yallist@3.0.2 
+    ├── tree-kill@1.2.0 
+    ├─┬ url@0.11.0 
+    │ └── punycode@1.3.2 
+    ├─┬ util.promisify@1.0.0 
+    │ ├─┬ define-properties@1.1.2 
+    │ │ └── foreach@2.0.5 
+    │ └─┬ object.getownpropertydescriptors@2.0.3 
+    │   └─┬ es-abstract@1.10.0 
+    │     ├─┬ es-to-primitive@1.1.1 
+    │     │ ├── is-date-object@1.0.1 
+    │     │ └── is-symbol@1.0.1 
+    │     ├── has@1.0.1 
+    │     ├── is-callable@1.1.3 
+    │     └── is-regex@1.0.4 
+    ├── xmldom@0.1.27 
+    └── yesno@0.0.1 
+
+npm WARN react-redux@5.0.6 requires a peer of react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0 but none was installed.
+Installing dependencies using npm...
+
+npm WARN deprecated connect@2.30.2: connect 2.x series is deprecated
+
+> fsevents@1.1.3 install /Users/zonyet/AwesomeProject/node_modules/fsevents
+> node install
+
+[fsevents] Success: "/Users/zonyet/AwesomeProject/node_modules/fsevents/lib/binding/Release/node-v57-darwin-x64/fse.node" already installed
+Pass --update-binary to reinstall or --build-from-source to recompile
+AwesomeProject@0.1.0 /Users/zonyet/AwesomeProject
+├─┬ expo@23.0.6 
+│ ├─┬ @expo/vector-icons@6.2.1 
+│ │ └─┬ react-native-vector-icons@4.4.2 
+│ │   └── yargs@8.0.2 
+│ ├─┬ babel-preset-expo@4.0.0 
+│ │ ├─┬ babel-plugin-module-resolver@2.7.1 
+│ │ │ ├── find-babel-config@1.1.0 
+│ │ │ ├── glob@7.1.2 
+│ │ │ └─┬ resolve@1.5.0 
+│ │ │   └── path-parse@1.0.5 
+│ │ ├─┬ babel-plugin-transform-decorators-legacy@1.3.4 
+│ │ │ └── babel-plugin-syntax-decorators@6.13.0 
+│ │ ├─┬ babel-plugin-transform-exponentiation-operator@6.24.1 
+│ │ │ ├─┬ babel-helper-builder-binary-assignment-operator-visitor@6.24.1 
+│ │ │ │ └── babel-helper-explode-assignable-expression@6.24.1 
+│ │ │ └── babel-plugin-syntax-exponentiation-operator@6.13.0 
+│ │ ├─┬ babel-plugin-transform-export-extensions@6.22.0 
+│ │ │ └── babel-plugin-syntax-export-extensions@6.13.0 
+│ │ └─┬ babel-preset-react-native@4.0.0 
+│ │   ├── babel-plugin-check-es2015-constants@6.22.0 
+│ │   ├── babel-plugin-react-transform@3.0.0 
+│ │   ├── babel-plugin-syntax-dynamic-import@6.18.0 
+│ │   ├── babel-plugin-syntax-jsx@6.18.0 
+│ │   ├── babel-plugin-transform-es2015-arrow-functions@6.22.0 
+│ │   ├── babel-plugin-transform-es2015-block-scoping@6.26.0 
+│ │   ├─┬ babel-plugin-transform-es2015-classes@6.24.1 
+│ │   │ ├── babel-helper-define-map@6.26.0 
+│ │   │ ├── babel-helper-optimise-call-expression@6.24.1 
+│ │   │ └── babel-helper-replace-supers@6.24.1 
+│ │   ├── babel-plugin-transform-es2015-computed-properties@6.24.1 
+│ │   ├── babel-plugin-transform-es2015-destructuring@6.23.0 
+│ │   ├── babel-plugin-transform-es2015-for-of@6.23.0 
+│ │   ├── babel-plugin-transform-es2015-function-name@6.24.1 
+│ │   ├── babel-plugin-transform-es2015-literals@6.22.0 
+│ │   ├─┬ babel-plugin-transform-es2015-modules-commonjs@6.26.0 
+│ │   │ └── babel-plugin-transform-strict-mode@6.24.1 
+│ │   ├─┬ babel-plugin-transform-es2015-parameters@6.24.1 
+│ │   │ └─┬ babel-helper-call-delegate@6.24.1 
+│ │   │   └── babel-helper-hoist-variables@6.24.1 
+│ │   ├── babel-plugin-transform-es2015-shorthand-properties@6.24.1 
+│ │   ├── babel-plugin-transform-es2015-spread@6.22.0 
+│ │   ├── babel-plugin-transform-es2015-template-literals@6.22.0 
+│ │   ├── babel-plugin-transform-object-assign@6.22.0 
+│ │   ├── babel-plugin-transform-react-display-name@6.25.0 
+│ │   ├─┬ babel-plugin-transform-react-jsx@6.24.1 
+│ │   │ └── babel-helper-builder-react-jsx@6.26.0 
+│ │   ├── babel-plugin-transform-react-jsx-source@6.22.0 
+│ │   ├─┬ babel-plugin-transform-regenerator@6.26.0 
+│ │   │ └── regenerator-transform@0.10.1 
+│ │   └─┬ react-transform-hmr@1.0.4 
+│ │     ├─┬ global@4.3.2 
+│ │     │ ├─┬ min-document@2.19.0 
+│ │     │ │ └── dom-walk@0.1.1 
+│ │     │ └── process@0.5.2 
+│ │     └─┬ react-proxy@1.1.8 
+│ │       └── react-deep-force-update@1.1.1 
+│ ├── fbemitter@2.1.1 
+│ ├── lodash.map@4.6.0 
+│ ├── lodash.zipobject@4.1.3 
+│ ├─┬ lottie-react-native@2.2.7 
+│ │ ├── lottie-ios@2.1.5 
+│ │ └─┬ react-native-safe-module@1.2.0 
+│ │   └── dedent@0.6.0 
+│ ├─┬ md5-file@3.2.3 
+│ │ └─┬ buffer-alloc@1.1.0 
+│ │   ├── buffer-alloc-unsafe@0.1.1 
+│ │   └── buffer-fill@0.1.0 
+│ ├── pretty-format@21.2.1 
+│ ├── react-native-branch@2.0.0-beta.3 
+│ ├── react-native-gesture-handler@1.0.0-alpha.30 
+│ ├── react-native-maps@0.17.1 
+│ ├─┬ react-native-svg@5.5.1 
+│ │ └─┬ color@2.0.1 
+│ │   └─┬ color-string@1.5.2 
+│ │     └─┬ simple-swizzle@0.2.2 
+│ │       └── is-arrayish@0.3.1 
+│ ├── uuid-js@0.7.5 
+│ └─┬ websql@0.4.4 
+│   ├── argsarray@0.0.1 
+│   ├── immediate@3.2.3 
+│   ├── noop-fn@1.0.0 
+│   ├── pouchdb-collections@1.0.1 
+│   └── tiny-queue@0.2.1 
+├─┬ jest-expo@23.0.0 
+│ ├─┬ babel-jest@21.2.0 
+│ │ ├─┬ babel-plugin-istanbul@4.1.5 
+│ │ │ ├─┬ find-up@2.1.0 
+│ │ │ │ └─┬ locate-path@2.0.0 
+│ │ │ │   └─┬ p-locate@2.0.0 
+│ │ │ │     └── p-limit@1.1.0 
+│ │ │ ├── istanbul-lib-instrument@1.9.1 
+│ │ │ └─┬ test-exclude@4.1.1 
+│ │ │   ├── arrify@1.0.1 
+│ │ │   └─┬ read-pkg-up@1.0.1 
+│ │ │     ├─┬ find-up@1.1.2 
+│ │ │     │ └── path-exists@2.1.0 
+│ │ │     └─┬ read-pkg@1.1.0 
+│ │ │       ├─┬ load-json-file@1.1.0 
+│ │ │       │ ├── pify@2.3.0 
+│ │ │       │ └─┬ strip-bom@2.0.0 
+│ │ │       │   └── is-utf8@0.2.1 
+│ │ │       └── path-type@1.1.0 
+│ │ └─┬ babel-preset-jest@21.2.0 
+│ │   └── babel-plugin-jest-hoist@21.2.0 
+│ └─┬ jest@21.2.1 
+│   └─┬ jest-cli@21.2.1 
+│     ├── glob@7.1.2 
+│     ├─┬ is-ci@1.0.10 
+│     │ └── ci-info@1.1.2 
+│     ├─┬ istanbul-api@1.2.1 
+│     │ ├── async@2.6.0 
+│     │ ├─┬ fileset@2.0.3 
+│     │ │ └── glob@7.1.2 
+│     │ ├─┬ istanbul-lib-hook@1.1.0 
+│     │ │ └─┬ append-transform@0.4.0 
+│     │ │   └─┬ default-require-extensions@1.0.0 
+│     │ │     └── strip-bom@2.0.0 
+│     │ ├─┬ istanbul-lib-report@1.1.2 
+│     │ │ └─┬ supports-color@3.2.3 
+│     │ │   └── has-flag@1.0.0 
+│     │ ├─┬ istanbul-reports@1.1.3 
+│     │ │ └─┬ handlebars@4.0.11 
+│     │ │   ├─┬ source-map@0.4.4 
+│     │ │   │ └── amdefine@1.0.1 
+│     │ │   └─┬ uglify-js@2.8.29 
+│     │ │     ├── source-map@0.5.7 
+│     │ │     ├── uglify-to-browserify@1.0.2 
+│     │ │     └─┬ yargs@3.10.0 
+│     │ │       ├── camelcase@1.2.1 
+│     │ │       ├─┬ cliui@2.1.0 
+│     │ │       │ ├─┬ center-align@0.1.3 
+│     │ │       │ │ ├─┬ align-text@0.1.4 
+│     │ │       │ │ │ └── longest@1.0.1 
+│     │ │       │ │ └── lazy-cache@1.0.4 
+│     │ │       │ ├── right-align@0.1.3 
+│     │ │       │ └── wordwrap@0.0.2 
+│     │ │       └── window-size@0.1.0 
+│     │ └─┬ js-yaml@3.10.0 
+│     │   ├─┬ argparse@1.0.9 
+│     │   │ └── sprintf-js@1.0.3 
+│     │   └── esprima@4.0.0 
+│     ├── istanbul-lib-coverage@1.1.1 
+│     ├─┬ istanbul-lib-source-maps@1.2.2 
+│     │ └── debug@3.1.0 
+│     ├── jest-changed-files@21.2.0 
+│     ├─┬ jest-config@21.2.1 
+│     │ ├── glob@7.1.2 
+│     │ ├── jest-environment-node@21.2.1 
+│     │ ├── jest-get-type@21.2.0 
+│     │ ├─┬ jest-jasmine2@21.2.1 
+│     │ │ ├── expect@21.2.1 
+│     │ │ └── p-cancelable@0.3.0 
+│     │ ├─┬ jest-resolve@21.2.0 
+│     │ │ ├─┬ browser-resolve@1.11.2 
+│     │ │ │ └── resolve@1.1.7 
+│     │ │ └─┬ is-builtin-module@1.0.0 
+│     │ │   └── builtin-modules@1.1.1 
+│     │ └─┬ jest-validate@21.2.1 
+│     │   └── leven@2.1.0 
+│     ├─┬ jest-environment-jsdom@21.2.1 
+│     │ ├── jest-mock@21.2.0 
+│     │ └─┬ jsdom@9.12.0 
+│     │   ├── abab@1.0.4 
+│     │   ├── acorn@4.0.13 
+│     │   ├── acorn-globals@3.1.0 
+│     │   ├── array-equal@1.0.0 
+│     │   ├── content-type-parser@1.0.2 
+│     │   ├── cssom@0.3.2 
+│     │   ├── cssstyle@0.2.37 
+│     │   ├── html-encoding-sniffer@1.0.2 
+│     │   ├── nwmatcher@1.4.3 
+│     │   ├── parse5@1.5.1 
+│     │   ├── sax@1.2.4 
+│     │   ├── symbol-tree@3.2.2 
+│     │   ├── webidl-conversions@4.0.2 
+│     │   ├── whatwg-encoding@1.0.3 
+│     │   ├─┬ whatwg-url@4.8.0 
+│     │   │ ├── tr46@0.0.3 
+│     │   │ └── webidl-conversions@3.0.1 
+│     │   └── xml-name-validator@2.0.1 
+│     ├── jest-message-util@21.2.1 
+│     ├── jest-regex-util@21.2.0 
+│     ├── jest-resolve-dependencies@21.2.0 
+│     ├── jest-runner@21.2.1 
+│     ├─┬ jest-runtime@21.2.1 
+│     │ ├── strip-bom@3.0.0 
+│     │ ├── write-file-atomic@2.3.0 
+│     │ └── yargs@9.0.1 
+│     ├─┬ jest-snapshot@21.2.1 
+│     │ ├─┬ jest-diff@21.2.1 
+│     │ │ └── diff@3.4.0 
+│     │ ├── jest-matcher-utils@21.2.1 
+│     │ └── natural-compare@1.4.0 
+│     ├─┬ jest-util@21.2.1 
+│     │ └── callsites@2.0.0 
+│     ├─┬ micromatch@2.3.11 
+│     │ ├─┬ arr-diff@2.0.0 
+│     │ │ └── arr-flatten@1.1.0 
+│     │ ├── array-unique@0.2.1 
+│     │ ├─┬ braces@1.8.5 
+│     │ │ ├─┬ expand-range@1.8.2 
+│     │ │ │ └─┬ fill-range@2.2.3 
+│     │ │ │   ├── is-number@2.1.0 
+│     │ │ │   ├── isobject@2.1.0 
+│     │ │ │   ├─┬ randomatic@1.1.7 
+│     │ │ │   │ ├─┬ is-number@3.0.0 
+│     │ │ │   │ │ └── kind-of@3.2.2 
+│     │ │ │   │ └── kind-of@4.0.0 
+│     │ │ │   └── repeat-string@1.6.1 
+│     │ │ ├── preserve@0.2.0 
+│     │ │ └── repeat-element@1.1.2 
+│     │ ├─┬ expand-brackets@0.1.5 
+│     │ │ └── is-posix-bracket@0.1.1 
+│     │ ├── extglob@0.3.2 
+│     │ ├── filename-regex@2.0.1 
+│     │ ├── is-extglob@1.0.0 
+│     │ ├── is-glob@2.0.1 
+│     │ ├── kind-of@3.2.2 
+│     │ ├─┬ normalize-path@2.1.1 
+│     │ │ └── remove-trailing-separator@1.1.0 
+│     │ ├─┬ object.omit@2.0.1 
+│     │ │ ├─┬ for-own@0.1.5 
+│     │ │ │ └── for-in@1.0.2 
+│     │ │ └── is-extendable@0.1.1 
+│     │ ├─┬ parse-glob@3.0.4 
+│     │ │ ├─┬ glob-base@0.3.0 
+│     │ │ │ └── glob-parent@2.0.0 
+│     │ │ └── is-dotfile@1.0.3 
+│     │ └─┬ regex-cache@0.4.4 
+│     │   └─┬ is-equal-shallow@0.1.3 
+│     │     └── is-primitive@2.0.0 
+│     ├─┬ string-length@2.0.0 
+│     │ └── astral-regex@1.0.0 
+│     ├─┬ worker-farm@1.5.2 
+│     │ ├─┬ errno@0.1.6 
+│     │ │ └── prr@1.0.1 
+│     │ └── xtend@4.0.1 
+│     └── yargs@9.0.1 
+├── react@16.0.0 
+├─┬ react-native@0.50.3 
+│ ├── absolute-path@0.0.0 
+│ ├── art@0.10.1 
+│ ├─┬ babel-core@6.26.0 
+│ │ ├─┬ babel-code-frame@6.26.0 
+│ │ │ └─┬ chalk@1.1.3 
+│ │ │   ├── ansi-styles@2.2.1 
+│ │ │   ├─┬ strip-ansi@3.0.1 
+│ │ │   │ └── ansi-regex@2.1.1 
+│ │ │   └── supports-color@2.0.0 
+│ │ ├─┬ babel-generator@6.26.0 
+│ │ │ ├─┬ detect-indent@4.0.0 
+│ │ │ │ └─┬ repeating@2.0.1 
+│ │ │ │   └── is-finite@1.0.2 
+│ │ │ ├── jsesc@1.3.0 
+│ │ │ └── trim-right@1.0.1 
+│ │ ├── babel-helpers@6.24.1 
+│ │ ├── babel-messages@6.23.0 
+│ │ ├── babel-template@6.26.0 
+│ │ ├─┬ babel-traverse@6.26.0 
+│ │ │ └── globals@9.18.0 
+│ │ ├─┬ babel-types@6.26.0 
+│ │ │ └── to-fast-properties@1.0.3 
+│ │ ├── babylon@6.18.0 
+│ │ ├── convert-source-map@1.5.1 
+│ │ ├── private@0.1.8 
+│ │ └── slash@1.0.0 
+│ ├── babel-plugin-syntax-trailing-function-commas@6.22.0 
+│ ├─┬ babel-plugin-transform-async-to-generator@6.16.0 
+│ │ ├── babel-helper-remap-async-to-generator@6.24.1 
+│ │ └── babel-plugin-syntax-async-functions@6.13.0 
+│ ├─┬ babel-plugin-transform-class-properties@6.24.1 
+│ │ ├─┬ babel-helper-function-name@6.24.1 
+│ │ │ └── babel-helper-get-function-arity@6.24.1 
+│ │ └── babel-plugin-syntax-class-properties@6.13.0 
+│ ├─┬ babel-plugin-transform-object-rest-spread@6.26.0 
+│ │ └── babel-plugin-syntax-object-rest-spread@6.13.0 
+│ ├─┬ babel-register@6.26.0 
+│ │ └─┬ home-or-tmp@2.0.0 
+│ │   └── os-homedir@1.0.2 
+│ ├─┬ chalk@1.1.3 
+│ │ ├── ansi-styles@2.2.1 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.1.1 
+│ │ ├─┬ strip-ansi@3.0.1 
+│ │ │ └── ansi-regex@2.1.1 
+│ │ └── supports-color@2.0.0 
+│ ├─┬ connect@2.30.2 
+│ │ ├── basic-auth-connect@1.0.0 
+│ │ ├─┬ body-parser@1.13.3 
+│ │ │ ├── iconv-lite@0.4.11 
+│ │ │ └─┬ raw-body@2.1.7 
+│ │ │   ├── bytes@2.4.0 
+│ │ │   └── iconv-lite@0.4.13 
+│ │ ├── bytes@2.1.0 
+│ │ ├─┬ compression@1.5.2 
+│ │ │ ├─┬ accepts@1.2.13 
+│ │ │ │ └── negotiator@0.5.3 
+│ │ │ ├── bytes@2.1.0 
+│ │ │ ├── compressible@2.0.12 
+│ │ │ ├─┬ debug@2.2.0 
+│ │ │ │ └── ms@0.7.1 
+│ │ │ └── vary@1.0.1 
+│ │ ├─┬ connect-timeout@1.6.2 
+│ │ │ ├── debug@2.2.0 
+│ │ │ ├── http-errors@1.3.1 
+│ │ │ └── ms@0.7.1 
+│ │ ├── cookie@0.1.3 
+│ │ ├─┬ cookie-parser@1.3.5 
+│ │ │ └── cookie@0.1.3 
+│ │ ├─┬ csurf@1.8.3 
+│ │ │ ├── cookie@0.1.3 
+│ │ │ ├─┬ csrf@3.0.6 
+│ │ │ │ ├── rndm@1.2.0 
+│ │ │ │ ├── tsscmp@1.0.5 
+│ │ │ │ └─┬ uid-safe@2.1.4 
+│ │ │ │   └── random-bytes@1.0.0 
+│ │ │ └── http-errors@1.3.1 
+│ │ ├─┬ debug@2.2.0 
+│ │ │ └── ms@0.7.1 
+│ │ ├── depd@1.0.1 
+│ │ ├── errorhandler@1.4.3 
+│ │ ├─┬ express-session@1.11.3 
+│ │ │ ├── cookie@0.1.3 
+│ │ │ ├── crc@3.3.0 
+│ │ │ ├─┬ debug@2.2.0 
+│ │ │ │ └── ms@0.7.1 
+│ │ │ ├── depd@1.0.1 
+│ │ │ ├─┬ uid-safe@2.0.0 
+│ │ │ │ └── base64-url@1.2.1 
+│ │ │ └── utils-merge@1.0.0 
+│ │ ├─┬ finalhandler@0.4.0 
+│ │ │ └── escape-html@1.0.2 
+│ │ ├── fresh@0.3.0 
+│ │ ├── http-errors@1.3.1 
+│ │ ├── method-override@2.3.10 
+│ │ ├─┬ morgan@1.6.1 
+│ │ │ ├── basic-auth@1.0.4 
+│ │ │ ├─┬ debug@2.2.0 
+│ │ │ │ └── ms@0.7.1 
+│ │ │ └── depd@1.0.1 
+│ │ ├─┬ multiparty@3.3.2 
+│ │ │ ├─┬ readable-stream@1.1.14 
+│ │ │ │ ├── isarray@0.0.1 
+│ │ │ │ └── string_decoder@0.10.31 
+│ │ │ └─┬ stream-counter@0.2.0 
+│ │ │   └─┬ readable-stream@1.1.14 
+│ │ │     ├── isarray@0.0.1 
+│ │ │     └── string_decoder@0.10.31 
+│ │ ├── on-headers@1.0.1 
+│ │ ├── pause@0.1.0 
+│ │ ├── qs@4.0.0 
+│ │ ├── response-time@2.3.2 
+│ │ ├─┬ serve-favicon@2.3.2 
+│ │ │ ├── etag@1.7.0 
+│ │ │ ├── fresh@0.3.0 
+│ │ │ └── ms@0.7.2 
+│ │ ├─┬ serve-index@1.7.3 
+│ │ │ ├─┬ accepts@1.2.13 
+│ │ │ │ └── negotiator@0.5.3 
+│ │ │ ├── batch@0.5.3 
+│ │ │ ├─┬ debug@2.2.0 
+│ │ │ │ └── ms@0.7.1 
+│ │ │ └── http-errors@1.3.1 
+│ │ ├─┬ serve-static@1.10.3 
+│ │ │ ├── escape-html@1.0.3 
+│ │ │ └─┬ send@0.13.2 
+│ │ │   ├── depd@1.1.1 
+│ │ │   ├── escape-html@1.0.3 
+│ │ │   ├── etag@1.7.0 
+│ │ │   ├── mime@1.3.4 
+│ │ │   ├── range-parser@1.0.3 
+│ │ │   └── statuses@1.2.1 
+│ │ ├── utils-merge@1.0.0 
+│ │ └── vhost@3.0.2 
+│ ├── create-react-class@15.6.2 
+│ ├── denodeify@1.2.1 
+│ ├─┬ envinfo@3.10.0 
+│ │ ├─┬ copy-paste@1.3.0 
+│ │ │ └── sync-exec@0.6.2 
+│ │ ├── glob@7.1.2 
+│ │ └─┬ os-name@2.0.1 
+│ │   ├── macos-release@1.1.0 
+│ │   └── win-release@1.1.1 
+│ ├── event-target-shim@1.1.1 
+│ ├─┬ fbjs-scripts@0.8.1 
+│ │ ├─┬ babel-preset-fbjs@2.1.4 
+│ │ │ ├── babel-plugin-transform-es2015-block-scoped-functions@6.22.0 
+│ │ │ ├── babel-plugin-transform-es2015-object-super@6.24.1 
+│ │ │ ├── babel-plugin-transform-es3-member-expression-literals@6.22.0 
+│ │ │ └── babel-plugin-transform-es3-property-literals@6.22.0 
+│ │ ├─┬ gulp-util@3.0.8 
+│ │ │ ├── array-differ@1.0.0 
+│ │ │ ├── beeper@1.1.1 
+│ │ │ ├─┬ chalk@1.1.3 
+│ │ │ │ ├── ansi-styles@2.2.1 
+│ │ │ │ ├─┬ strip-ansi@3.0.1 
+│ │ │ │ │ └── ansi-regex@2.1.1 
+│ │ │ │ └── supports-color@2.0.0 
+│ │ │ ├── dateformat@2.2.0 
+│ │ │ ├─┬ fancy-log@1.3.2 
+│ │ │ │ ├─┬ ansi-gray@0.1.1 
+│ │ │ │ │ └── ansi-wrap@0.1.0 
+│ │ │ │ ├── color-support@1.1.3 
+│ │ │ │ └── time-stamp@1.1.0 
+│ │ │ ├─┬ gulplog@1.0.0 
+│ │ │ │ └── glogg@1.0.0 
+│ │ │ ├─┬ has-gulplog@0.1.0 
+│ │ │ │ └── sparkles@1.0.0 
+│ │ │ ├── lodash._reescape@3.0.0 
+│ │ │ ├── lodash._reevaluate@3.0.0 
+│ │ │ ├── lodash._reinterpolate@3.0.0 
+│ │ │ ├─┬ lodash.template@3.6.2 
+│ │ │ │ ├── lodash._basecopy@3.0.1 
+│ │ │ │ ├── lodash._basetostring@3.0.1 
+│ │ │ │ ├── lodash._basevalues@3.0.0 
+│ │ │ │ ├── lodash._isiterateecall@3.0.9 
+│ │ │ │ ├─┬ lodash.escape@3.2.0 
+│ │ │ │ │ └── lodash._root@3.0.1 
+│ │ │ │ ├─┬ lodash.keys@3.1.2 
+│ │ │ │ │ ├── lodash._getnative@3.9.1 
+│ │ │ │ │ ├── lodash.isarguments@3.1.0 
+│ │ │ │ │ └── lodash.isarray@3.0.4 
+│ │ │ │ ├── lodash.restparam@3.6.1 
+│ │ │ │ └── lodash.templatesettings@3.1.1 
+│ │ │ ├─┬ multipipe@0.1.2 
+│ │ │ │ └─┬ duplexer2@0.0.2 
+│ │ │ │   └─┬ readable-stream@1.1.14 
+│ │ │ │     ├── isarray@0.0.1 
+│ │ │ │     └── string_decoder@0.10.31 
+│ │ │ ├── object-assign@3.0.0 
+│ │ │ ├── replace-ext@0.0.1 
+│ │ │ └─┬ vinyl@0.5.3 
+│ │ │   ├── clone@1.0.3 
+│ │ │   └── clone-stats@0.0.1 
+│ │ └─┬ through2@2.0.3 
+│ │   └── xtend@4.0.1 
+│ ├─┬ fs-extra@1.0.0 
+│ │ ├── jsonfile@2.4.0 
+│ │ └── klaw@1.3.1 
+│ ├── glob@7.1.2 
+│ ├─┬ metro-bundler@0.20.3 
+│ │ ├── async@2.6.0 
+│ │ ├── babel-plugin-external-helpers@6.22.0 
+│ │ ├─┬ babel-preset-es2015-node@6.1.1 
+│ │ │ ├─┬ babel-plugin-transform-es2015-sticky-regex@6.24.1 
+│ │ │ │ └── babel-helper-regex@6.26.0 
+│ │ │ └─┬ babel-plugin-transform-es2015-unicode-regex@6.24.1 
+│ │ │   └─┬ regexpu-core@2.0.0 
+│ │ │     ├── regenerate@1.3.3 
+│ │ │     ├── regjsgen@0.2.0 
+│ │ │     └─┬ regjsparser@0.1.5 
+│ │ │       └── jsesc@0.5.0 
+│ │ ├─┬ chalk@1.1.3 
+│ │ │ ├── ansi-styles@2.2.1 
+│ │ │ ├─┬ strip-ansi@3.0.1 
+│ │ │ │ └── ansi-regex@2.1.1 
+│ │ │ └── supports-color@2.0.0 
+│ │ ├── image-size@0.6.2 
+│ │ ├── jest-docblock@21.2.0 
+│ │ ├─┬ jest-haste-map@21.2.0 
+│ │ │ ├─┬ fb-watchman@2.0.0 
+│ │ │ │ └─┬ bser@2.0.0 
+│ │ │ │   └── node-int64@0.4.0 
+│ │ │ └─┬ sane@2.2.0 
+│ │ │   ├── anymatch@1.3.2 
+│ │ │   ├─┬ exec-sh@0.2.1 
+│ │ │   │ └── merge@1.2.0 
+│ │ │   ├─┬ fsevents@1.1.3 
+│ │ │   │ ├── nan@2.8.0 
+│ │ │   │ └─┬ node-pre-gyp@0.6.39 
+│ │ │   │   ├── detect-libc@1.0.2 
+│ │ │   │   ├─┬ hawk@3.1.3 
+│ │ │   │   │ ├── boom@2.10.1 
+│ │ │   │   │ ├── cryptiles@2.0.5 
+│ │ │   │   │ ├── hoek@2.16.3 
+│ │ │   │   │ └── sntp@1.0.9 
+│ │ │   │   ├─┬ mkdirp@0.5.1 
+│ │ │   │   │ └── minimist@0.0.8 
+│ │ │   │   ├─┬ nopt@4.0.1 
+│ │ │   │   │ ├── abbrev@1.1.0 
+│ │ │   │   │ └─┬ osenv@0.1.4 
+│ │ │   │   │   ├── os-homedir@1.0.2 
+│ │ │   │   │   └── os-tmpdir@1.0.2 
+│ │ │   │   ├─┬ npmlog@4.1.0 
+│ │ │   │   │ ├─┬ are-we-there-yet@1.1.4 
+│ │ │   │   │ │ └── delegates@1.0.0 
+│ │ │   │   │ ├── console-control-strings@1.1.0 
+│ │ │   │   │ ├─┬ gauge@2.7.4 
+│ │ │   │   │ │ ├── aproba@1.1.1 
+│ │ │   │   │ │ ├── has-unicode@2.0.1 
+│ │ │   │   │ │ ├── object-assign@4.1.1 
+│ │ │   │   │ │ ├── signal-exit@3.0.2 
+│ │ │   │   │ │ ├─┬ string-width@1.0.2 
+│ │ │   │   │ │ │ ├── code-point-at@1.1.0 
+│ │ │   │   │ │ │ └─┬ is-fullwidth-code-point@1.0.0 
+│ │ │   │   │ │ │   └── number-is-nan@1.0.1 
+│ │ │   │   │ │ ├─┬ strip-ansi@3.0.1 
+│ │ │   │   │ │ │ └── ansi-regex@2.1.1 
+│ │ │   │   │ │ └── wide-align@1.1.2 
+│ │ │   │   │ └── set-blocking@2.0.0 
+│ │ │   │   ├─┬ rc@1.2.1 
+│ │ │   │   │ ├── deep-extend@0.4.2 
+│ │ │   │   │ ├── ini@1.3.4 
+│ │ │   │   │ ├── minimist@1.2.0 
+│ │ │   │   │ └── strip-json-comments@2.0.1 
+│ │ │   │   ├─┬ request@2.81.0 
+│ │ │   │   │ ├── aws-sign2@0.6.0 
+│ │ │   │   │ ├── aws4@1.6.0 
+│ │ │   │   │ ├── caseless@0.12.0 
+│ │ │   │   │ ├─┬ combined-stream@1.0.5 
+│ │ │   │   │ │ └── delayed-stream@1.0.0 
+│ │ │   │   │ ├── extend@3.0.1 
+│ │ │   │   │ ├── forever-agent@0.6.1 
+│ │ │   │   │ ├─┬ form-data@2.1.4 
+│ │ │   │   │ │ └── asynckit@0.4.0 
+│ │ │   │   │ ├─┬ har-validator@4.2.1 
+│ │ │   │   │ │ ├─┬ ajv@4.11.8 
+│ │ │   │   │ │ │ ├── co@4.6.0 
+│ │ │   │   │ │ │ └─┬ json-stable-stringify@1.0.1 
+│ │ │   │   │ │ │   └── jsonify@0.0.0 
+│ │ │   │   │ │ └── har-schema@1.0.5 
+│ │ │   │   │ ├─┬ http-signature@1.1.1 
+│ │ │   │   │ │ ├── assert-plus@0.2.0 
+│ │ │   │   │ │ ├─┬ jsprim@1.4.0 
+│ │ │   │   │ │ │ ├── assert-plus@1.0.0 
+│ │ │   │   │ │ │ ├── extsprintf@1.0.2 
+│ │ │   │   │ │ │ ├── json-schema@0.2.3 
+│ │ │   │   │ │ │ └── verror@1.3.6 
+│ │ │   │   │ │ └─┬ sshpk@1.13.0 
+│ │ │   │   │ │   ├── asn1@0.2.3 
+│ │ │   │   │ │   ├── assert-plus@1.0.0 
+│ │ │   │   │ │   ├── bcrypt-pbkdf@1.0.1 
+│ │ │   │   │ │   ├─┬ dashdash@1.14.1 
+│ │ │   │   │ │   │ └── assert-plus@1.0.0 
+│ │ │   │   │ │   ├── ecc-jsbn@0.1.1 
+│ │ │   │   │ │   ├─┬ getpass@0.1.7 
+│ │ │   │   │ │   │ └── assert-plus@1.0.0 
+│ │ │   │   │ │   ├── jodid25519@1.0.2 
+│ │ │   │   │ │   ├── jsbn@0.1.1 
+│ │ │   │   │ │   └── tweetnacl@0.14.5 
+│ │ │   │   │ ├── is-typedarray@1.0.0 
+│ │ │   │   │ ├── isstream@0.1.2 
+│ │ │   │   │ ├── json-stringify-safe@5.0.1 
+│ │ │   │   │ ├─┬ mime-types@2.1.15 
+│ │ │   │   │ │ └── mime-db@1.27.0 
+│ │ │   │   │ ├── oauth-sign@0.8.2 
+│ │ │   │   │ ├── performance-now@0.2.0 
+│ │ │   │   │ ├── qs@6.4.0 
+│ │ │   │   │ ├── safe-buffer@5.0.1 
+│ │ │   │   │ ├── stringstream@0.0.5 
+│ │ │   │   │ ├─┬ tough-cookie@2.3.2 
+│ │ │   │   │ │ └── punycode@1.4.1 
+│ │ │   │   │ ├── tunnel-agent@0.6.0 
+│ │ │   │   │ └── uuid@3.0.1 
+│ │ │   │   ├─┬ rimraf@2.6.1 
+│ │ │   │   │ └─┬ glob@7.1.2 
+│ │ │   │   │   ├── fs.realpath@1.0.0 
+│ │ │   │   │   ├── inflight@1.0.6 
+│ │ │   │   │   ├─┬ minimatch@3.0.4 
+│ │ │   │   │   │ └─┬ brace-expansion@1.1.7 
+│ │ │   │   │   │   ├── balanced-match@0.4.2 
+│ │ │   │   │   │   └── concat-map@0.0.1 
+│ │ │   │   │   └── path-is-absolute@1.0.1 
+│ │ │   │   ├── semver@5.3.0 
+│ │ │   │   ├─┬ tar@2.2.1 
+│ │ │   │   │ ├── block-stream@0.0.9 
+│ │ │   │   │ ├─┬ fstream@1.0.11 
+│ │ │   │   │ │ └── graceful-fs@4.1.11 
+│ │ │   │   │ └── inherits@2.0.3 
+│ │ │   │   └─┬ tar-pack@3.4.0 
+│ │ │   │     ├─┬ debug@2.6.8 
+│ │ │   │     │ └── ms@2.0.0 
+│ │ │   │     ├── fstream-ignore@1.0.5 
+│ │ │   │     ├─┬ once@1.4.0 
+│ │ │   │     │ └── wrappy@1.0.2 
+│ │ │   │     ├─┬ readable-stream@2.2.9 
+│ │ │   │     │ ├── buffer-shims@1.0.0 
+│ │ │   │     │ ├── core-util-is@1.0.2 
+│ │ │   │     │ ├── isarray@1.0.0 
+│ │ │   │     │ ├── process-nextick-args@1.0.7 
+│ │ │   │     │ ├── string_decoder@1.0.1 
+│ │ │   │     │ └── util-deprecate@1.0.2 
+│ │ │   │     └── uid-number@0.0.6 
+│ │ │   ├─┬ walker@1.0.7 
+│ │ │   │ └─┬ makeerror@1.0.11 
+│ │ │   │   └── tmpl@1.0.4 
+│ │ │   └── watch@0.18.0 
+│ │ ├── json-stable-stringify@1.0.1 
+│ │ ├── json5@0.4.0 
+│ │ ├── left-pad@1.2.0 
+│ │ ├── merge-stream@1.0.1 
+│ │ ├─┬ mime-types@2.1.11 
+│ │ │ └── mime-db@1.23.0 
+│ │ ├─┬ temp@0.8.3 
+│ │ │ └── rimraf@2.2.8 
+│ │ ├── throat@4.1.0 
+│ │ ├─┬ uglify-es@3.2.2 
+│ │ │ └── source-map@0.6.1 
+│ │ ├─┬ write-file-atomic@1.3.4 
+│ │ │ ├── imurmurhash@0.1.4 
+│ │ │ └── slide@1.1.6 
+│ │ └── xpipe@1.0.5 
+│ ├─┬ node-notifier@5.1.2 
+│ │ ├── growly@1.3.0 
+│ │ └── shellwords@0.1.1 
+│ ├─┬ npmlog@2.0.4 
+│ │ ├── ansi@0.3.1 
+│ │ ├─┬ are-we-there-yet@1.1.4 
+│ │ │ └── delegates@1.0.0 
+│ │ └─┬ gauge@1.2.7 
+│ │   ├── has-unicode@2.0.1 
+│ │   ├── lodash.pad@4.5.1 
+│ │   ├── lodash.padend@4.6.1 
+│ │   └── lodash.padstart@4.6.1 
+│ ├── opn@3.0.3 
+│ ├─┬ optimist@0.6.1 
+│ │ ├── minimist@0.0.10 
+│ │ └── wordwrap@0.0.3 
+│ ├─┬ plist@1.2.0 
+│ │ ├── base64-js@0.0.8 
+│ │ └─┬ xmlbuilder@4.0.0 
+│ │   └── lodash@3.10.1 
+│ ├── pretty-format@4.3.1 
+│ ├── react-clone-referenced-element@1.0.1 
+│ ├─┬ react-devtools-core@2.5.2 
+│ │ └─┬ ws@2.3.1 
+│ │   ├── safe-buffer@5.0.1 
+│ │   └── ultron@1.1.1 
+│ ├── react-timer-mixin@0.13.3 
+│ ├── regenerator-runtime@0.9.6 
+│ ├─┬ shell-quote@1.6.1 
+│ │ ├── array-filter@0.0.1 
+│ │ ├── array-map@0.0.0 
+│ │ ├── array-reduce@0.0.0 
+│ │ └── jsonify@0.0.0 
+│ ├── stacktrace-parser@0.1.4 
+│ ├── whatwg-fetch@1.1.1 
+│ ├─┬ ws@1.1.5 
+│ │ ├── options@0.0.6 
+│ │ └── ultron@1.0.2 
+│ ├─┬ xcode@0.9.3 
+│ │ ├── pegjs@0.10.0 
+│ │ ├─┬ simple-plist@0.2.1 
+│ │ │ ├─┬ bplist-creator@0.0.7 
+│ │ │ │ └── stream-buffers@2.2.0 
+│ │ │ ├─┬ bplist-parser@0.1.1 
+│ │ │ │ └── big-integer@1.6.26 
+│ │ │ └─┬ plist@2.0.1 
+│ │ │   └── base64-js@1.1.2 
+│ │ └── uuid@3.0.1 
+│ ├─┬ xmldoc@0.4.0 
+│ │ └── sax@1.1.6 
+│ └─┬ yargs@9.0.1 
+│   ├── camelcase@4.1.0 
+│   ├─┬ cliui@3.2.0 
+│   │ ├─┬ string-width@1.0.2 
+│   │ │ ├── code-point-at@1.1.0 
+│   │ │ └─┬ is-fullwidth-code-point@1.0.0 
+│   │ │   └── number-is-nan@1.0.1 
+│   │ ├─┬ strip-ansi@3.0.1 
+│   │ │ └── ansi-regex@2.1.1 
+│   │ └─┬ wrap-ansi@2.1.0 
+│   │   ├─┬ string-width@1.0.2 
+│   │   │ └── is-fullwidth-code-point@1.0.0 
+│   │   └─┬ strip-ansi@3.0.1 
+│   │     └── ansi-regex@2.1.1 
+│   ├── decamelize@1.2.0 
+│   ├── get-caller-file@1.0.2 
+│   ├─┬ os-locale@2.1.0 
+│   │ ├─┬ execa@0.7.0 
+│   │ │ ├─┬ npm-run-path@2.0.2 
+│   │ │ │ └── path-key@2.0.1 
+│   │ │ ├── p-finally@1.0.0 
+│   │ │ └── strip-eof@1.0.0 
+│   │ ├─┬ lcid@1.0.0 
+│   │ │ └── invert-kv@1.0.0 
+│   │ └── mem@1.1.0 
+│   ├─┬ read-pkg-up@2.0.0 
+│   │ └─┬ read-pkg@2.0.0 
+│   │   ├─┬ load-json-file@2.0.0 
+│   │   │ ├─┬ parse-json@2.2.0 
+│   │   │ │ └─┬ error-ex@1.3.1 
+│   │   │ │   └── is-arrayish@0.2.1 
+│   │   │ └── pify@2.3.0 
+│   │   ├─┬ normalize-package-data@2.4.0 
+│   │   │ ├── hosted-git-info@2.5.0 
+│   │   │ └─┬ validate-npm-package-license@3.0.1 
+│   │   │   ├─┬ spdx-correct@1.0.2 
+│   │   │   │ └── spdx-license-ids@1.2.2 
+│   │   │   └── spdx-expression-parse@1.0.4 
+│   │   └─┬ path-type@2.0.0 
+│   │     └── pify@2.3.0 
+│   ├── require-directory@2.1.1 
+│   ├── require-main-filename@1.0.1 
+│   ├── set-blocking@2.0.0 
+│   ├── which-module@2.0.0 
+│   ├── y18n@3.2.1 
+│   └── yargs-parser@7.0.0 
+└── react-test-renderer@16.0.0 
+
+
+
+Success! Created AwesomeProject at /Users/zonyet/AwesomeProject
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server so you can open your app in the Expo
+    app on your phone.
+
+  npm run ios
+    (Mac only, requires Xcode)
+    Starts the development server and loads your app in an iOS simulator.
+
+  npm run android
+    (Requires Android build tools)
+    Starts the development server and loads your app on a connected Android
+    device or emulator.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd AwesomeProject
+  npm start
+
+Happy hacking!
+MrTang:~ zonyet$ 
