@@ -3205,3 +3205,23 @@ We suggest that you begin by typing:
 
 Happy hacking!
 MrTang:~ zonyet$ 
+
+##安装watchman－自动监听文件内容变化，刷新数据
+brew install watchman
+
+安装flow－提供静态语法检查，自动补全
+brew install flow
+
+如果你之前安装了flow或者watchman,建议更新到最新版本
+brew upgrade watchman
+brew upgrade flow
+
+IDE 环境搭建
+安装Atom https://atom.io/
+/*Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.*/
+安装Nuclide
+
+这里，我们在Atom中，用图形化界面来安装。
+点击菜单栏：Atom->Preferences,或者可以”Command+,”快捷打开
+然后，在Install Packets的输入框中，输入nuclide，出现的第一个就是我们想要安装的，点击install 
+
